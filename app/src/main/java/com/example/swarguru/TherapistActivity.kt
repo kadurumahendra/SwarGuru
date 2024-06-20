@@ -23,14 +23,14 @@ class TherapistActivity : AppCompatActivity() {
 
     private fun setUpListeners() {
 
-        binding.box1.setOnClickListener {
-            binding.box1.setBackgroundResource(R.drawable.curved_green_bg_20dp)
-            binding.box2.setBackgroundResource(R.drawable.curved_stroke_lightblue_5_20dp)
+        binding.yesBox1.setOnClickListener {
+            binding.yesBox1.setBackgroundResource(R.drawable.curved_green_bg_20dp)
+            binding.noBox2.setBackgroundResource(R.drawable.curved_stroke_lightblue_5_20dp)
         }
 
-        binding.box2.setOnClickListener {
-            binding.box2.setBackgroundResource(R.drawable.curved_red_bg_20dp)
-            binding.box1.setBackgroundResource(R.drawable.curved_stroke_lightblue_5_20dp)
+        binding.noBox2.setOnClickListener {
+            binding.noBox2.setBackgroundResource(R.drawable.curved_red_bg_20dp)
+            binding.yesBox1.setBackgroundResource(R.drawable.curved_stroke_lightblue_5_20dp)
         }
 
         binding.ProceedBtn.setOnClickListener {

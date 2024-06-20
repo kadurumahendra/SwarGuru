@@ -19,14 +19,14 @@ class LanguageActivity : AppCompatActivity() {
 
     private fun setUpListeners() {
 
-        binding.box1.setOnClickListener {
-            binding.box1.setBackgroundResource(R.drawable.curved_bg_21dp)
-            binding.box2.setBackgroundResource(R.drawable.curved_stroke_5_20dp_bg)
+        binding.englishBox1.setOnClickListener {
+            binding.englishBox1.setBackgroundResource(R.drawable.curved_bg_21dp)
+            binding.hindiBox2.setBackgroundResource(R.drawable.curved_stroke_5_20dp_bg)
         }
 
-        binding.box2.setOnClickListener {
-            binding.box2.setBackgroundResource(R.drawable.curved_bg_21dp)
-            binding.box1.setBackgroundResource(R.drawable.curved_stroke_5_20dp_bg)
+        binding.hindiBox2.setOnClickListener {
+            binding.hindiBox2.setBackgroundResource(R.drawable.curved_bg_21dp)
+            binding.englishBox1.setBackgroundResource(R.drawable.curved_stroke_5_20dp_bg)
         }
 
         binding.continueBtn.setOnClickListener {
