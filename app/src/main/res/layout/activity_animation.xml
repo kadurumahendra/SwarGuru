@@ -113,7 +113,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/box1"
         android:layout_width="350dp"
-        android:layout_height="80dp"
+        android:layout_height="90dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/curved_level_bg_20dp"
         android:clickable="true"

@@ -10,26 +10,34 @@ import com.example.swarguru.databinding.ActivityDashboardBinding
 
 class DashboardActivity : AppCompatActivity() {
 
-private lateinit var binding: ActivityDashboardBinding
+    private lateinit var binding: ActivityDashboardBinding
+    private val homeFragment = HomeFragment()
+    private val graphFragment = GraphFragment()
+    private val profileFragment = ProfileFragment()
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityDashboardBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        replaceFragment(homeFragment)
 
+        setUpListeners()
+    }
+
+    private fun setUpListeners() {
         binding.bottomNav.setOnItemSelectedListener {
-            when(it.itemId) {
-            R.id.home -> {
-                val homeFragment = HomeFragment()
-                replaceFragment(homeFragment)
-            }
+            when (it.itemId) {
+                R.id.home -> {
+                    replaceFragment(homeFragment)
+                }
+
                 R.id.graph -> {
-                    val graphFragment = GraphFragment()
                     replaceFragment(graphFragment)
                 }
+
                 R.id.profile -> {
-                    val profileFragment = ProfileFragment()
                     replaceFragment(profileFragment)
                 }
             }

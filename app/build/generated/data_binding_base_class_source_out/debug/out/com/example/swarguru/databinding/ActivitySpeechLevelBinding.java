@@ -33,6 +33,9 @@ public final class ActivitySpeechLevelBinding implements ViewBinding {
   public final ImageView imageView;
 
   @NonNull
+  public final ImageView imageView6;
+
+  @NonNull
   public final ConstraintLayout main;
 
   @NonNull
@@ -61,7 +64,7 @@ public final class ActivitySpeechLevelBinding implements ViewBinding {
 
   private ActivitySpeechLevelBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout buttonContainer, @NonNull AppCompatButton continueBtn,
-      @NonNull ImageView imageView, @NonNull ConstraintLayout main,
+      @NonNull ImageView imageView, @NonNull ImageView imageView6, @NonNull ConstraintLayout main,
       @NonNull RadioButton radioButton1, @NonNull RadioButton radioButton2,
       @NonNull RadioButton radioButton3, @NonNull RadioButton radioButton4,
       @NonNull RadioGroup speechLevelRG, @NonNull TextView textView5, @NonNull TextView textView8,
@@ -70,6 +73,7 @@ public final class ActivitySpeechLevelBinding implements ViewBinding {
     this.buttonContainer = buttonContainer;
     this.continueBtn = continueBtn;
     this.imageView = imageView;
+    this.imageView6 = imageView6;
     this.main = main;
     this.radioButton1 = radioButton1;
     this.radioButton2 = radioButton2;
@@ -126,6 +130,12 @@ public final class ActivitySpeechLevelBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView6;
+      ImageView imageView6 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView6 == null) {
+        break missingId;
+      }
+
       ConstraintLayout main = (ConstraintLayout) rootView;
 
       id = R.id.radioButton1;
@@ -177,8 +187,8 @@ public final class ActivitySpeechLevelBinding implements ViewBinding {
       }
 
       return new ActivitySpeechLevelBinding((ConstraintLayout) rootView, buttonContainer,
-          continueBtn, imageView, main, radioButton1, radioButton2, radioButton3, radioButton4,
-          speechLevelRG, textView5, textView8, textView9);
+          continueBtn, imageView, imageView6, main, radioButton1, radioButton2, radioButton3,
+          radioButton4, speechLevelRG, textView5, textView8, textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

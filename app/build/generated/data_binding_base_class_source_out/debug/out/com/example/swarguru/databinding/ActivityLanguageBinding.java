@@ -23,22 +23,22 @@ public final class ActivityLanguageBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ConstraintLayout box1;
-
-  @NonNull
-  public final ConstraintLayout box2;
-
-  @NonNull
   public final ConstraintLayout buttonContainer;
 
   @NonNull
   public final AppCompatButton continueBtn;
 
   @NonNull
+  public final ConstraintLayout englishBox1;
+
+  @NonNull
   public final TextView englishText;
 
   @NonNull
   public final Guideline guideline;
+
+  @NonNull
+  public final ConstraintLayout hindiBox2;
 
   @NonNull
   public final TextView hindiText;
@@ -59,19 +59,19 @@ public final class ActivityLanguageBinding implements ViewBinding {
   public final TextView textViewTitle;
 
   private ActivityLanguageBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout box1, @NonNull ConstraintLayout box2,
       @NonNull ConstraintLayout buttonContainer, @NonNull AppCompatButton continueBtn,
-      @NonNull TextView englishText, @NonNull Guideline guideline, @NonNull TextView hindiText,
-      @NonNull ImageView image1Icon, @NonNull ImageView image2Icon,
+      @NonNull ConstraintLayout englishBox1, @NonNull TextView englishText,
+      @NonNull Guideline guideline, @NonNull ConstraintLayout hindiBox2,
+      @NonNull TextView hindiText, @NonNull ImageView image1Icon, @NonNull ImageView image2Icon,
       @NonNull ImageView imageViewLogo, @NonNull TextView textViewSubtitle,
       @NonNull TextView textViewTitle) {
     this.rootView = rootView;
-    this.box1 = box1;
-    this.box2 = box2;
     this.buttonContainer = buttonContainer;
     this.continueBtn = continueBtn;
+    this.englishBox1 = englishBox1;
     this.englishText = englishText;
     this.guideline = guideline;
+    this.hindiBox2 = hindiBox2;
     this.hindiText = hindiText;
     this.image1Icon = image1Icon;
     this.image2Icon = image2Icon;
@@ -107,18 +107,6 @@ public final class ActivityLanguageBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.box1;
-      ConstraintLayout box1 = ViewBindings.findChildViewById(rootView, id);
-      if (box1 == null) {
-        break missingId;
-      }
-
-      id = R.id.box2;
-      ConstraintLayout box2 = ViewBindings.findChildViewById(rootView, id);
-      if (box2 == null) {
-        break missingId;
-      }
-
       id = R.id.buttonContainer;
       ConstraintLayout buttonContainer = ViewBindings.findChildViewById(rootView, id);
       if (buttonContainer == null) {
@@ -131,6 +119,12 @@ public final class ActivityLanguageBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.englishBox1;
+      ConstraintLayout englishBox1 = ViewBindings.findChildViewById(rootView, id);
+      if (englishBox1 == null) {
+        break missingId;
+      }
+
       id = R.id.englishText;
       TextView englishText = ViewBindings.findChildViewById(rootView, id);
       if (englishText == null) {
@@ -140,6 +134,12 @@ public final class ActivityLanguageBinding implements ViewBinding {
       id = R.id.guideline;
       Guideline guideline = ViewBindings.findChildViewById(rootView, id);
       if (guideline == null) {
+        break missingId;
+      }
+
+      id = R.id.hindiBox2;
+      ConstraintLayout hindiBox2 = ViewBindings.findChildViewById(rootView, id);
+      if (hindiBox2 == null) {
         break missingId;
       }
 
@@ -179,9 +179,9 @@ public final class ActivityLanguageBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLanguageBinding((ConstraintLayout) rootView, box1, box2, buttonContainer,
-          continueBtn, englishText, guideline, hindiText, image1Icon, image2Icon, imageViewLogo,
-          textViewSubtitle, textViewTitle);
+      return new ActivityLanguageBinding((ConstraintLayout) rootView, buttonContainer, continueBtn,
+          englishBox1, englishText, guideline, hindiBox2, hindiText, image1Icon, image2Icon,
+          imageViewLogo, textViewSubtitle, textViewTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

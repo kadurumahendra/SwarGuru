@@ -51,69 +51,122 @@
     </androidx.appcompat.widget.Toolbar>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/box1"
+        android:id="@+id/quizBox1"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="310dp"
         android:layout_marginHorizontal="15dp"
         android:layout_marginTop="25dp"
-        android:background="@drawable/curved_profile_frament"
+        android:background="@drawable/curved_teachers_bg_20dp"
         android:clickable="true"
         android:focusable="true"
         android:onClick="onFrameContainerClick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view" />
+        app:layout_constraintTop_toBottomOf="@+id/view">
 
-    <EditText
-        android:id="@+id/questionEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginHorizontal="24dp"
-        android:background="@drawable/curved_bg_10dp"
-        android:fontFamily="@font/inter_bold"
-        android:hint="1. What is the English word for\n     अनार ______________"
-        android:inputType="text"
-        android:padding="18dp"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
-        android:textSize="15dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/box1" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/box2"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_marginHorizontal="15dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/quiz_rectangle"
-        android:clickable="true"
-        android:focusable="true"
-        android:onClick="onFrameContainerClick"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/questionEditText" />
+        <TextView
+            android:id="@+id/questionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/curved_bg_10dp"
+            android:fontFamily="@font/inter_bold"
+            android:hint="1. What is the English word for\n     अनार ______________"
+            android:inputType="text"
+            android:padding="18dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/quizBox1" />
 
-    <EditText
-        android:id="@+id/box1ansEditText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="24dp"
-        android:fontFamily="@font/inter_bold"
-        android:hint="Pomegrante"
-        android:inputType="text"
-        android:padding="18dp"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
-        android:textSize="15dp"
-        app:layout_constraintBottom_toBottomOf="@+id/box2"
-        app:layout_constraintEnd_toEndOf="@+id/box2"
-        app:layout_constraintStart_toStartOf="@+id/box2"
-        app:layout_constraintTop_toTopOf="@+id/box2" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/answerBox1"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/quiz_rectangle"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onFrameContainerClick"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/questionEditText" />
 
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="Pomegrante"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="@+id/answerBox1"
+            app:layout_constraintEnd_toEndOf="@+id/answerBox1"
+            app:layout_constraintStart_toStartOf="@+id/answerBox1"
+            app:layout_constraintTop_toTopOf="@+id/answerBox1" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/answerBox2"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/quiz_rectangle"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onFrameContainerClick"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/answerBox1" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="Pomegrante"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="@+id/answerBox2"
+            app:layout_constraintEnd_toEndOf="@+id/answerBox2"
+            app:layout_constraintStart_toStartOf="@+id/answerBox2"
+            app:layout_constraintTop_toTopOf="@+id/answerBox2" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/answerBox3"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/quiz_rectangle"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onFrameContainerClick"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/answerBox2" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="Pomegrante"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="@+id/answerBox3"
+            app:layout_constraintEnd_toEndOf="@+id/answerBox3"
+            app:layout_constraintStart_toStartOf="@+id/answerBox3"
+            app:layout_constraintTop_toTopOf="@+id/answerBox3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 
 
 

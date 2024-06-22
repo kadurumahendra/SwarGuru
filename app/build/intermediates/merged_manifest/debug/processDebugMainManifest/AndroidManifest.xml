@@ -28,22 +28,25 @@
         android:testOnly="true"
         android:theme="@style/Theme.SwarGuru" >
         <activity
+            android:name="com.example.swarguru.AdminActivity.AdminDashboardActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.swarguru.QuizActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.swarguru.Profile_speechtherapyActivity"
+            android:name="com.example.swarguru.SpeechTherapyActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.swarguru.Profile_ChangepasswordActivity"
+            android:name="com.example.swarguru.ChangePasswordActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.swarguru.Profile_EditbuttonActivity"
+            android:name="com.example.swarguru.EditProfileActivity"
             android:exported="false" />
         <activity
             android:name="com.example.swarguru.AnimationActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.swarguru.Letter_Words_Activity"
+            android:name="com.example.swarguru.LetterWordsActivity"
             android:exported="false" />
         <activity
             android:name="com.example.swarguru.LettersActivity"
@@ -52,13 +55,7 @@
             android:name="com.example.swarguru.LevelActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.swarguru.WelcomesActivity"
-            android:exported="false" />
-        <activity
             android:name="com.example.swarguru.DashboardActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.swarguru.HomePageActivity"
             android:exported="false" />
         <activity
             android:name="com.example.swarguru.TherapistActivity"
@@ -71,9 +68,6 @@
             android:exported="false" />
         <activity
             android:name="com.example.swarguru.SpeechLevelActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.swarguru.AgeActivity"
             android:exported="false" />
         <activity
             android:name="com.example.swarguru.LanguageActivity"

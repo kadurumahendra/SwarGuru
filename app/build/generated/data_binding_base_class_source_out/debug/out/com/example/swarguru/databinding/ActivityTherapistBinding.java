@@ -27,12 +27,6 @@ public final class ActivityTherapistBinding implements ViewBinding {
   public final AppCompatButton ProceedBtn;
 
   @NonNull
-  public final ConstraintLayout box1;
-
-  @NonNull
-  public final ConstraintLayout box2;
-
-  @NonNull
   public final ConstraintLayout buttonContainer;
 
   @NonNull
@@ -42,10 +36,16 @@ public final class ActivityTherapistBinding implements ViewBinding {
   public final ImageView imageView2;
 
   @NonNull
+  public final ImageView imageView6;
+
+  @NonNull
   public final ConstraintLayout main;
 
   @NonNull
   public final EditText mobileNoEditText;
+
+  @NonNull
+  public final ConstraintLayout noBox2;
 
   @NonNull
   public final TextView textView10;
@@ -56,24 +56,28 @@ public final class ActivityTherapistBinding implements ViewBinding {
   @NonNull
   public final TextView textView13;
 
+  @NonNull
+  public final ConstraintLayout yesBox1;
+
   private ActivityTherapistBinding(@NonNull ConstraintLayout rootView,
-      @NonNull AppCompatButton ProceedBtn, @NonNull ConstraintLayout box1,
-      @NonNull ConstraintLayout box2, @NonNull ConstraintLayout buttonContainer,
-      @NonNull Guideline guideline, @NonNull ImageView imageView2, @NonNull ConstraintLayout main,
-      @NonNull EditText mobileNoEditText, @NonNull TextView textView10,
-      @NonNull TextView textView11, @NonNull TextView textView13) {
+      @NonNull AppCompatButton ProceedBtn, @NonNull ConstraintLayout buttonContainer,
+      @NonNull Guideline guideline, @NonNull ImageView imageView2, @NonNull ImageView imageView6,
+      @NonNull ConstraintLayout main, @NonNull EditText mobileNoEditText,
+      @NonNull ConstraintLayout noBox2, @NonNull TextView textView10, @NonNull TextView textView11,
+      @NonNull TextView textView13, @NonNull ConstraintLayout yesBox1) {
     this.rootView = rootView;
     this.ProceedBtn = ProceedBtn;
-    this.box1 = box1;
-    this.box2 = box2;
     this.buttonContainer = buttonContainer;
     this.guideline = guideline;
     this.imageView2 = imageView2;
+    this.imageView6 = imageView6;
     this.main = main;
     this.mobileNoEditText = mobileNoEditText;
+    this.noBox2 = noBox2;
     this.textView10 = textView10;
     this.textView11 = textView11;
     this.textView13 = textView13;
+    this.yesBox1 = yesBox1;
   }
 
   @Override
@@ -109,18 +113,6 @@ public final class ActivityTherapistBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.box1;
-      ConstraintLayout box1 = ViewBindings.findChildViewById(rootView, id);
-      if (box1 == null) {
-        break missingId;
-      }
-
-      id = R.id.box2;
-      ConstraintLayout box2 = ViewBindings.findChildViewById(rootView, id);
-      if (box2 == null) {
-        break missingId;
-      }
-
       id = R.id.buttonContainer;
       ConstraintLayout buttonContainer = ViewBindings.findChildViewById(rootView, id);
       if (buttonContainer == null) {
@@ -139,11 +131,23 @@ public final class ActivityTherapistBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView6;
+      ImageView imageView6 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView6 == null) {
+        break missingId;
+      }
+
       ConstraintLayout main = (ConstraintLayout) rootView;
 
       id = R.id.mobileNoEditText;
       EditText mobileNoEditText = ViewBindings.findChildViewById(rootView, id);
       if (mobileNoEditText == null) {
+        break missingId;
+      }
+
+      id = R.id.noBox2;
+      ConstraintLayout noBox2 = ViewBindings.findChildViewById(rootView, id);
+      if (noBox2 == null) {
         break missingId;
       }
 
@@ -165,9 +169,15 @@ public final class ActivityTherapistBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityTherapistBinding((ConstraintLayout) rootView, ProceedBtn, box1, box2,
-          buttonContainer, guideline, imageView2, main, mobileNoEditText, textView10, textView11,
-          textView13);
+      id = R.id.yesBox1;
+      ConstraintLayout yesBox1 = ViewBindings.findChildViewById(rootView, id);
+      if (yesBox1 == null) {
+        break missingId;
+      }
+
+      return new ActivityTherapistBinding((ConstraintLayout) rootView, ProceedBtn, buttonContainer,
+          guideline, imageView2, imageView6, main, mobileNoEditText, noBox2, textView10, textView11,
+          textView13, yesBox1);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -22,41 +22,37 @@ public final class FragmentProfileBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ConstraintLayout box1;
+  public final TextView changePasswordTV;
+
+  @NonNull
+  public final TextView editProfileTV;
 
   @NonNull
   public final ImageView imageView5;
 
   @NonNull
-  public final TextView textView18;
+  public final ConstraintLayout profileCL;
 
   @NonNull
-  public final TextView textView19;
+  public final TextView progessTV;
 
   @NonNull
-  public final TextView textView20;
-
-  @NonNull
-  public final TextView textView21;
-
-  @NonNull
-  public final TextView textView22;
+  public final TextView speechTherapyTV;
 
   @NonNull
   public final Toolbar view;
 
-  private FragmentProfileBinding(@NonNull ConstraintLayout rootView, @NonNull ConstraintLayout box1,
-      @NonNull ImageView imageView5, @NonNull TextView textView18, @NonNull TextView textView19,
-      @NonNull TextView textView20, @NonNull TextView textView21, @NonNull TextView textView22,
-      @NonNull Toolbar view) {
+  private FragmentProfileBinding(@NonNull ConstraintLayout rootView,
+      @NonNull TextView changePasswordTV, @NonNull TextView editProfileTV,
+      @NonNull ImageView imageView5, @NonNull ConstraintLayout profileCL,
+      @NonNull TextView progessTV, @NonNull TextView speechTherapyTV, @NonNull Toolbar view) {
     this.rootView = rootView;
-    this.box1 = box1;
+    this.changePasswordTV = changePasswordTV;
+    this.editProfileTV = editProfileTV;
     this.imageView5 = imageView5;
-    this.textView18 = textView18;
-    this.textView19 = textView19;
-    this.textView20 = textView20;
-    this.textView21 = textView21;
-    this.textView22 = textView22;
+    this.profileCL = profileCL;
+    this.progessTV = progessTV;
+    this.speechTherapyTV = speechTherapyTV;
     this.view = view;
   }
 
@@ -87,9 +83,15 @@ public final class FragmentProfileBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.box1;
-      ConstraintLayout box1 = ViewBindings.findChildViewById(rootView, id);
-      if (box1 == null) {
+      id = R.id.changePasswordTV;
+      TextView changePasswordTV = ViewBindings.findChildViewById(rootView, id);
+      if (changePasswordTV == null) {
+        break missingId;
+      }
+
+      id = R.id.editProfileTV;
+      TextView editProfileTV = ViewBindings.findChildViewById(rootView, id);
+      if (editProfileTV == null) {
         break missingId;
       }
 
@@ -99,33 +101,21 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView18;
-      TextView textView18 = ViewBindings.findChildViewById(rootView, id);
-      if (textView18 == null) {
+      id = R.id.profileCL;
+      ConstraintLayout profileCL = ViewBindings.findChildViewById(rootView, id);
+      if (profileCL == null) {
         break missingId;
       }
 
-      id = R.id.textView19;
-      TextView textView19 = ViewBindings.findChildViewById(rootView, id);
-      if (textView19 == null) {
+      id = R.id.progessTV;
+      TextView progessTV = ViewBindings.findChildViewById(rootView, id);
+      if (progessTV == null) {
         break missingId;
       }
 
-      id = R.id.textView20;
-      TextView textView20 = ViewBindings.findChildViewById(rootView, id);
-      if (textView20 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView21;
-      TextView textView21 = ViewBindings.findChildViewById(rootView, id);
-      if (textView21 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView22;
-      TextView textView22 = ViewBindings.findChildViewById(rootView, id);
-      if (textView22 == null) {
+      id = R.id.speechTherapyTV;
+      TextView speechTherapyTV = ViewBindings.findChildViewById(rootView, id);
+      if (speechTherapyTV == null) {
         break missingId;
       }
 
@@ -135,8 +125,8 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentProfileBinding((ConstraintLayout) rootView, box1, imageView5, textView18,
-          textView19, textView20, textView21, textView22, view);
+      return new FragmentProfileBinding((ConstraintLayout) rootView, changePasswordTV,
+          editProfileTV, imageView5, profileCL, progessTV, speechTherapyTV, view);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -8,25 +8,36 @@
     android:background="@drawable/background"
     tools:context="AgeActivity">
 
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:src="@drawable/flow_graph1"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
         android:fontFamily="@font/inter"
         android:text="1 OF 4 STEPS"
+        android:layout_marginTop="25dp"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
     <ImageView
         android:id="@+id/loginLogo"
         android:layout_width="84dp"
         android:layout_height="84dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="30dp"
         android:textAlignment="center"
         android:src="@drawable/playtime_removebg_preview"
         app:layout_constraintEnd_toEndOf="parent"

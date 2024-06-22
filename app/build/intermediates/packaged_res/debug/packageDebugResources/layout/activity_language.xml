@@ -57,7 +57,7 @@
         app:layout_constraintGuide_percent="0.5"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/box1"
+        android:id="@+id/englishBox1"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="60dp"
@@ -99,7 +99,7 @@
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/box2"
+        android:id="@+id/hindiBox2"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="60dp"

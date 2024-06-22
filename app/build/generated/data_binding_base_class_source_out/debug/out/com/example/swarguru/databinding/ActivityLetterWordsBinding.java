@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -32,6 +33,9 @@ public final class ActivityLetterWordsBinding implements ViewBinding {
 
   @NonNull
   public final ConstraintLayout box4;
+
+  @NonNull
+  public final CardView cardViewProfile;
 
   @NonNull
   public final ImageView imageView61;
@@ -64,25 +68,23 @@ public final class ActivityLetterWordsBinding implements ViewBinding {
   public final TextView toolbarAppNameTv;
 
   @NonNull
-  public final ImageView toolbarProfileIconIv;
-
-  @NonNull
   public final Toolbar view;
 
   private ActivityLetterWordsBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout box1, @NonNull ConstraintLayout box2,
       @NonNull ConstraintLayout box3, @NonNull ConstraintLayout box4,
-      @NonNull ImageView imageView61, @NonNull ImageView imageView62,
-      @NonNull ImageView imageView63, @NonNull ImageView imageView64,
-      @NonNull ConstraintLayout main, @NonNull ConstraintLayout rectangle1,
-      @NonNull ConstraintLayout rectangle2, @NonNull ConstraintLayout rectangle3,
-      @NonNull ConstraintLayout rectangle4, @NonNull TextView toolbarAppNameTv,
-      @NonNull ImageView toolbarProfileIconIv, @NonNull Toolbar view) {
+      @NonNull CardView cardViewProfile, @NonNull ImageView imageView61,
+      @NonNull ImageView imageView62, @NonNull ImageView imageView63,
+      @NonNull ImageView imageView64, @NonNull ConstraintLayout main,
+      @NonNull ConstraintLayout rectangle1, @NonNull ConstraintLayout rectangle2,
+      @NonNull ConstraintLayout rectangle3, @NonNull ConstraintLayout rectangle4,
+      @NonNull TextView toolbarAppNameTv, @NonNull Toolbar view) {
     this.rootView = rootView;
     this.box1 = box1;
     this.box2 = box2;
     this.box3 = box3;
     this.box4 = box4;
+    this.cardViewProfile = cardViewProfile;
     this.imageView61 = imageView61;
     this.imageView62 = imageView62;
     this.imageView63 = imageView63;
@@ -93,7 +95,6 @@ public final class ActivityLetterWordsBinding implements ViewBinding {
     this.rectangle3 = rectangle3;
     this.rectangle4 = rectangle4;
     this.toolbarAppNameTv = toolbarAppNameTv;
-    this.toolbarProfileIconIv = toolbarProfileIconIv;
     this.view = view;
   }
 
@@ -145,6 +146,12 @@ public final class ActivityLetterWordsBinding implements ViewBinding {
       id = R.id.box4;
       ConstraintLayout box4 = ViewBindings.findChildViewById(rootView, id);
       if (box4 == null) {
+        break missingId;
+      }
+
+      id = R.id.cardViewProfile;
+      CardView cardViewProfile = ViewBindings.findChildViewById(rootView, id);
+      if (cardViewProfile == null) {
         break missingId;
       }
 
@@ -204,12 +211,6 @@ public final class ActivityLetterWordsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.toolbarProfileIconIv;
-      ImageView toolbarProfileIconIv = ViewBindings.findChildViewById(rootView, id);
-      if (toolbarProfileIconIv == null) {
-        break missingId;
-      }
-
       id = R.id.view;
       Toolbar view = ViewBindings.findChildViewById(rootView, id);
       if (view == null) {
@@ -217,8 +218,8 @@ public final class ActivityLetterWordsBinding implements ViewBinding {
       }
 
       return new ActivityLetterWordsBinding((ConstraintLayout) rootView, box1, box2, box3, box4,
-          imageView61, imageView62, imageView63, imageView64, main, rectangle1, rectangle2,
-          rectangle3, rectangle4, toolbarAppNameTv, toolbarProfileIconIv, view);
+          cardViewProfile, imageView61, imageView62, imageView63, imageView64, main, rectangle1,
+          rectangle2, rectangle3, rectangle4, toolbarAppNameTv, view);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

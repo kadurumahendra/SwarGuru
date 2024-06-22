@@ -28,55 +28,16 @@ public final class ActivityLettersBinding implements ViewBinding {
   public final ConstraintLayout box2;
 
   @NonNull
-  public final ConstraintLayout box3;
-
-  @NonNull
-  public final ConstraintLayout box4;
-
-  @NonNull
-  public final ConstraintLayout box5;
-
-  @NonNull
-  public final ConstraintLayout box6;
-
-  @NonNull
   public final ImageView imageView61;
 
   @NonNull
   public final ImageView imageView62;
 
   @NonNull
-  public final ImageView imageView63;
-
-  @NonNull
-  public final ImageView imageView64;
-
-  @NonNull
-  public final ImageView imageView65;
-
-  @NonNull
-  public final ImageView imageView66;
-
-  @NonNull
   public final ConstraintLayout main;
 
   @NonNull
   public final ConstraintLayout rectangle1;
-
-  @NonNull
-  public final ConstraintLayout rectangle2;
-
-  @NonNull
-  public final ConstraintLayout rectangle3;
-
-  @NonNull
-  public final ConstraintLayout rectangle4;
-
-  @NonNull
-  public final ConstraintLayout rectangle5;
-
-  @NonNull
-  public final ConstraintLayout rectangle6;
 
   @NonNull
   public final TextView toolbarAppNameTv;
@@ -91,37 +52,18 @@ public final class ActivityLettersBinding implements ViewBinding {
   public final Toolbar view;
 
   private ActivityLettersBinding(@NonNull ConstraintLayout rootView, @NonNull ConstraintLayout box1,
-      @NonNull ConstraintLayout box2, @NonNull ConstraintLayout box3,
-      @NonNull ConstraintLayout box4, @NonNull ConstraintLayout box5,
-      @NonNull ConstraintLayout box6, @NonNull ImageView imageView61,
-      @NonNull ImageView imageView62, @NonNull ImageView imageView63,
-      @NonNull ImageView imageView64, @NonNull ImageView imageView65,
-      @NonNull ImageView imageView66, @NonNull ConstraintLayout main,
-      @NonNull ConstraintLayout rectangle1, @NonNull ConstraintLayout rectangle2,
-      @NonNull ConstraintLayout rectangle3, @NonNull ConstraintLayout rectangle4,
-      @NonNull ConstraintLayout rectangle5, @NonNull ConstraintLayout rectangle6,
-      @NonNull TextView toolbarAppNameTv, @NonNull ImageView toolbarProfileIconIv,
-      @NonNull TextView toolbarProfileNameTv, @NonNull Toolbar view) {
+      @NonNull ConstraintLayout box2, @NonNull ImageView imageView61,
+      @NonNull ImageView imageView62, @NonNull ConstraintLayout main,
+      @NonNull ConstraintLayout rectangle1, @NonNull TextView toolbarAppNameTv,
+      @NonNull ImageView toolbarProfileIconIv, @NonNull TextView toolbarProfileNameTv,
+      @NonNull Toolbar view) {
     this.rootView = rootView;
     this.box1 = box1;
     this.box2 = box2;
-    this.box3 = box3;
-    this.box4 = box4;
-    this.box5 = box5;
-    this.box6 = box6;
     this.imageView61 = imageView61;
     this.imageView62 = imageView62;
-    this.imageView63 = imageView63;
-    this.imageView64 = imageView64;
-    this.imageView65 = imageView65;
-    this.imageView66 = imageView66;
     this.main = main;
     this.rectangle1 = rectangle1;
-    this.rectangle2 = rectangle2;
-    this.rectangle3 = rectangle3;
-    this.rectangle4 = rectangle4;
-    this.rectangle5 = rectangle5;
-    this.rectangle6 = rectangle6;
     this.toolbarAppNameTv = toolbarAppNameTv;
     this.toolbarProfileIconIv = toolbarProfileIconIv;
     this.toolbarProfileNameTv = toolbarProfileNameTv;
@@ -167,30 +109,6 @@ public final class ActivityLettersBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.box3;
-      ConstraintLayout box3 = ViewBindings.findChildViewById(rootView, id);
-      if (box3 == null) {
-        break missingId;
-      }
-
-      id = R.id.box4;
-      ConstraintLayout box4 = ViewBindings.findChildViewById(rootView, id);
-      if (box4 == null) {
-        break missingId;
-      }
-
-      id = R.id.box5;
-      ConstraintLayout box5 = ViewBindings.findChildViewById(rootView, id);
-      if (box5 == null) {
-        break missingId;
-      }
-
-      id = R.id.box6;
-      ConstraintLayout box6 = ViewBindings.findChildViewById(rootView, id);
-      if (box6 == null) {
-        break missingId;
-      }
-
       id = R.id.imageView6_1;
       ImageView imageView61 = ViewBindings.findChildViewById(rootView, id);
       if (imageView61 == null) {
@@ -203,65 +121,11 @@ public final class ActivityLettersBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView6_3;
-      ImageView imageView63 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView63 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView6_4;
-      ImageView imageView64 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView64 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView6_5;
-      ImageView imageView65 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView65 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView6_6;
-      ImageView imageView66 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView66 == null) {
-        break missingId;
-      }
-
       ConstraintLayout main = (ConstraintLayout) rootView;
 
       id = R.id.rectangle1;
       ConstraintLayout rectangle1 = ViewBindings.findChildViewById(rootView, id);
       if (rectangle1 == null) {
-        break missingId;
-      }
-
-      id = R.id.rectangle2;
-      ConstraintLayout rectangle2 = ViewBindings.findChildViewById(rootView, id);
-      if (rectangle2 == null) {
-        break missingId;
-      }
-
-      id = R.id.rectangle3;
-      ConstraintLayout rectangle3 = ViewBindings.findChildViewById(rootView, id);
-      if (rectangle3 == null) {
-        break missingId;
-      }
-
-      id = R.id.rectangle4;
-      ConstraintLayout rectangle4 = ViewBindings.findChildViewById(rootView, id);
-      if (rectangle4 == null) {
-        break missingId;
-      }
-
-      id = R.id.rectangle5;
-      ConstraintLayout rectangle5 = ViewBindings.findChildViewById(rootView, id);
-      if (rectangle5 == null) {
-        break missingId;
-      }
-
-      id = R.id.rectangle6;
-      ConstraintLayout rectangle6 = ViewBindings.findChildViewById(rootView, id);
-      if (rectangle6 == null) {
         break missingId;
       }
 
@@ -289,10 +153,9 @@ public final class ActivityLettersBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLettersBinding((ConstraintLayout) rootView, box1, box2, box3, box4, box5,
-          box6, imageView61, imageView62, imageView63, imageView64, imageView65, imageView66, main,
-          rectangle1, rectangle2, rectangle3, rectangle4, rectangle5, rectangle6, toolbarAppNameTv,
-          toolbarProfileIconIv, toolbarProfileNameTv, view);
+      return new ActivityLettersBinding((ConstraintLayout) rootView, box1, box2, imageView61,
+          imageView62, main, rectangle1, toolbarAppNameTv, toolbarProfileIconIv,
+          toolbarProfileNameTv, view);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

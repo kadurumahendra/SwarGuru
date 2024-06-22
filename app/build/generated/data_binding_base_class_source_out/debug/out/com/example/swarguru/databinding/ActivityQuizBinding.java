@@ -4,7 +4,6 @@ package com.example.swarguru.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -23,19 +22,31 @@ public final class ActivityQuizBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ConstraintLayout box1;
+  public final ConstraintLayout answerBox1;
 
   @NonNull
-  public final EditText box1ansEditText;
+  public final ConstraintLayout answerBox2;
 
   @NonNull
-  public final ConstraintLayout box2;
+  public final ConstraintLayout answerBox3;
 
   @NonNull
   public final ConstraintLayout main;
 
   @NonNull
-  public final EditText questionEditText;
+  public final TextView questionEditText;
+
+  @NonNull
+  public final ConstraintLayout quizBox1;
+
+  @NonNull
+  public final TextView textView18;
+
+  @NonNull
+  public final TextView textView19;
+
+  @NonNull
+  public final TextView textView20;
 
   @NonNull
   public final TextView toolbarAppNameTv;
@@ -46,17 +57,23 @@ public final class ActivityQuizBinding implements ViewBinding {
   @NonNull
   public final Toolbar view;
 
-  private ActivityQuizBinding(@NonNull ConstraintLayout rootView, @NonNull ConstraintLayout box1,
-      @NonNull EditText box1ansEditText, @NonNull ConstraintLayout box2,
-      @NonNull ConstraintLayout main, @NonNull EditText questionEditText,
+  private ActivityQuizBinding(@NonNull ConstraintLayout rootView,
+      @NonNull ConstraintLayout answerBox1, @NonNull ConstraintLayout answerBox2,
+      @NonNull ConstraintLayout answerBox3, @NonNull ConstraintLayout main,
+      @NonNull TextView questionEditText, @NonNull ConstraintLayout quizBox1,
+      @NonNull TextView textView18, @NonNull TextView textView19, @NonNull TextView textView20,
       @NonNull TextView toolbarAppNameTv, @NonNull ImageView toolbarProfileIconIv,
       @NonNull Toolbar view) {
     this.rootView = rootView;
-    this.box1 = box1;
-    this.box1ansEditText = box1ansEditText;
-    this.box2 = box2;
+    this.answerBox1 = answerBox1;
+    this.answerBox2 = answerBox2;
+    this.answerBox3 = answerBox3;
     this.main = main;
     this.questionEditText = questionEditText;
+    this.quizBox1 = quizBox1;
+    this.textView18 = textView18;
+    this.textView19 = textView19;
+    this.textView20 = textView20;
     this.toolbarAppNameTv = toolbarAppNameTv;
     this.toolbarProfileIconIv = toolbarProfileIconIv;
     this.view = view;
@@ -89,29 +106,53 @@ public final class ActivityQuizBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.box1;
-      ConstraintLayout box1 = ViewBindings.findChildViewById(rootView, id);
-      if (box1 == null) {
+      id = R.id.answerBox1;
+      ConstraintLayout answerBox1 = ViewBindings.findChildViewById(rootView, id);
+      if (answerBox1 == null) {
         break missingId;
       }
 
-      id = R.id.box1ansEditText;
-      EditText box1ansEditText = ViewBindings.findChildViewById(rootView, id);
-      if (box1ansEditText == null) {
+      id = R.id.answerBox2;
+      ConstraintLayout answerBox2 = ViewBindings.findChildViewById(rootView, id);
+      if (answerBox2 == null) {
         break missingId;
       }
 
-      id = R.id.box2;
-      ConstraintLayout box2 = ViewBindings.findChildViewById(rootView, id);
-      if (box2 == null) {
+      id = R.id.answerBox3;
+      ConstraintLayout answerBox3 = ViewBindings.findChildViewById(rootView, id);
+      if (answerBox3 == null) {
         break missingId;
       }
 
       ConstraintLayout main = (ConstraintLayout) rootView;
 
       id = R.id.questionEditText;
-      EditText questionEditText = ViewBindings.findChildViewById(rootView, id);
+      TextView questionEditText = ViewBindings.findChildViewById(rootView, id);
       if (questionEditText == null) {
+        break missingId;
+      }
+
+      id = R.id.quizBox1;
+      ConstraintLayout quizBox1 = ViewBindings.findChildViewById(rootView, id);
+      if (quizBox1 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView18;
+      TextView textView18 = ViewBindings.findChildViewById(rootView, id);
+      if (textView18 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView19;
+      TextView textView19 = ViewBindings.findChildViewById(rootView, id);
+      if (textView19 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView20;
+      TextView textView20 = ViewBindings.findChildViewById(rootView, id);
+      if (textView20 == null) {
         break missingId;
       }
 
@@ -133,8 +174,9 @@ public final class ActivityQuizBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityQuizBinding((ConstraintLayout) rootView, box1, box1ansEditText, box2, main,
-          questionEditText, toolbarAppNameTv, toolbarProfileIconIv, view);
+      return new ActivityQuizBinding((ConstraintLayout) rootView, answerBox1, answerBox2,
+          answerBox3, main, questionEditText, quizBox1, textView18, textView19, textView20,
+          toolbarAppNameTv, toolbarProfileIconIv, view);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

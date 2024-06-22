@@ -20,7 +20,7 @@
 15-->[androidx.core:core:1.10.1] C:\Users\mahen\.gradle\caches\transforms-3\f17e6d6a28b3a38a098f4167161fd22b\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:5:5-92:19
+17-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:5:5-86:19
 18        android:allowBackup="true"
 18-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -44,56 +44,56 @@
 29-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:13:9-46
 30        <activity
 30-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:15:9-17:40
-31            android:name="com.example.swarguru.QuizActivity"
-31-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:16:13-41
+31            android:name="com.example.swarguru.AdminActivity.AdminDashboardActivity"
+31-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:16:13-65
 32            android:exported="false" />
 32-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:17:13-37
 33        <activity
 33-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:18:9-20:40
-34            android:name="com.example.swarguru.Profile_speechtherapyActivity"
-34-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:19:13-58
+34            android:name="com.example.swarguru.QuizActivity"
+34-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:19:13-41
 35            android:exported="false" />
 35-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:20:13-37
 36        <activity
 36-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:21:9-23:40
-37            android:name="com.example.swarguru.Profile_ChangepasswordActivity"
-37-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:22:13-59
+37            android:name="com.example.swarguru.SpeechTherapyActivity"
+37-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:22:13-50
 38            android:exported="false" />
 38-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:23:13-37
 39        <activity
 39-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:24:9-26:40
-40            android:name="com.example.swarguru.Profile_EditbuttonActivity"
-40-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:25:13-55
+40            android:name="com.example.swarguru.ChangePasswordActivity"
+40-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:25:13-51
 41            android:exported="false" />
 41-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:26:13-37
 42        <activity
 42-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:27:9-29:40
-43            android:name="com.example.swarguru.AnimationActivity"
-43-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:28:13-46
+43            android:name="com.example.swarguru.EditProfileActivity"
+43-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:28:13-48
 44            android:exported="false" />
 44-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:29:13-37
 45        <activity
 45-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:30:9-32:40
-46            android:name="com.example.swarguru.Letter_Words_Activity"
-46-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:31:13-50
+46            android:name="com.example.swarguru.AnimationActivity"
+46-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:31:13-46
 47            android:exported="false" />
 47-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:32:13-37
 48        <activity
 48-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:33:9-35:40
-49            android:name="com.example.swarguru.LettersActivity"
-49-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:34:13-44
+49            android:name="com.example.swarguru.LetterWordsActivity"
+49-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:34:13-48
 50            android:exported="false" />
 50-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:35:13-37
 51        <activity
 51-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:36:9-38:40
-52            android:name="com.example.swarguru.LevelActivity"
-52-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:37:13-42
+52            android:name="com.example.swarguru.LettersActivity"
+52-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:37:13-44
 53            android:exported="false" />
 53-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:38:13-37
 54        <activity
 54-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:39:9-41:40
-55            android:name="com.example.swarguru.WelcomesActivity"
-55-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:40:13-45
+55            android:name="com.example.swarguru.LevelActivity"
+55-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:40:13-42
 56            android:exported="false" />
 56-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:41:13-37
 57        <activity
@@ -104,162 +104,150 @@
 59-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:44:13-37
 60        <activity
 60-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:45:9-47:40
-61            android:name="com.example.swarguru.HomePageActivity"
-61-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:46:13-45
+61            android:name="com.example.swarguru.TherapistActivity"
+61-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:46:13-46
 62            android:exported="false" />
 62-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:47:13-37
 63        <activity
 63-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:48:9-50:40
-64            android:name="com.example.swarguru.TherapistActivity"
-64-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:49:13-46
+64            android:name="com.example.swarguru.WordsActivity"
+64-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:49:13-42
 65            android:exported="false" />
 65-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:50:13-37
 66        <activity
 66-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:51:9-53:40
-67            android:name="com.example.swarguru.WordsActivity"
-67-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:52:13-42
+67            android:name="com.example.swarguru.AgeActivity"
+67-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:52:13-40
 68            android:exported="false" />
 68-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:53:13-37
 69        <activity
 69-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:54:9-56:40
-70            android:name="com.example.swarguru.AgeActivity"
-70-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:55:13-40
+70            android:name="com.example.swarguru.SpeechLevelActivity"
+70-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:55:13-48
 71            android:exported="false" />
 71-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:56:13-37
 72        <activity
 72-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:57:9-59:40
-73            android:name="com.example.swarguru.SpeechLevelActivity"
-73-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:58:13-48
+73            android:name="com.example.swarguru.LanguageActivity"
+73-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:58:13-45
 74            android:exported="false" />
 74-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:59:13-37
 75        <activity
-75-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:54:9-56:40
-76            android:name="com.example.swarguru.AgeActivity"
-76-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:55:13-40
+75-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:60:9-62:40
+76            android:name="com.example.swarguru.SignupActivity"
+76-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:61:13-43
 77            android:exported="false" />
-77-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:56:13-37
+77-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:62:13-37
 78        <activity
 78-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:63:9-65:40
-79            android:name="com.example.swarguru.LanguageActivity"
-79-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:64:13-45
+79            android:name="com.example.swarguru.LoginActivity"
+79-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:64:13-42
 80            android:exported="false" />
 80-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:65:13-37
 81        <activity
 81-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:66:9-68:40
-82            android:name="com.example.swarguru.SignupActivity"
-82-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:67:13-43
+82            android:name="com.example.swarguru.RegisterActivity"
+82-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:67:13-45
 83            android:exported="false" />
 83-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:68:13-37
 84        <activity
-84-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:69:9-71:40
-85            android:name="com.example.swarguru.LoginActivity"
-85-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:70:13-42
-86            android:exported="false" />
-86-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:71:13-37
-87        <activity
-87-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:72:9-74:40
-88            android:name="com.example.swarguru.RegisterActivity"
-88-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:73:13-45
-89            android:exported="false" />
-89-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:74:13-37
-90        <activity
-90-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:75:9-84:20
-91            android:name="com.example.swarguru.WelcomeActivity"
-91-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:76:13-44
-92            android:exported="true"
-92-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:77:13-36
-93            android:screenOrientation="portrait" >
-93-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:78:13-49
-94            <intent-filter>
-94-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:79:13-83:29
-95                <action android:name="android.intent.action.MAIN" />
-95-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:80:17-69
-95-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:80:25-66
-96
-97                <category android:name="android.intent.category.LAUNCHER" />
-97-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:82:17-77
-97-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:82:27-74
-98            </intent-filter>
-99        </activity>
-100        <activity
-100-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:85:9-87:40
-101            android:name="com.example.swarguru.MainActivity"
-101-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:86:13-41
-102            android:exported="false" />
-102-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:87:13-37
-103
-104        <meta-data
-104-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:89:9-91:57
-105            android:name="preloaded_fonts"
-105-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:90:13-43
-106            android:resource="@array/preloaded_fonts" />
-106-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:91:13-54
-107
-108        <provider
-108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mahen\.gradle\caches\transforms-3\940e0085ee1366cef47ea5891a529993\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-109            android:name="androidx.startup.InitializationProvider"
-109-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mahen\.gradle\caches\transforms-3\940e0085ee1366cef47ea5891a529993\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-110            android:authorities="com.example.swarguru.androidx-startup"
-110-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mahen\.gradle\caches\transforms-3\940e0085ee1366cef47ea5891a529993\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-111            android:exported="false" >
-111-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mahen\.gradle\caches\transforms-3\940e0085ee1366cef47ea5891a529993\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+84-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:69:9-78:20
+85            android:name="com.example.swarguru.WelcomeActivity"
+85-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:70:13-44
+86            android:exported="true"
+86-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:71:13-36
+87            android:screenOrientation="portrait" >
+87-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:72:13-49
+88            <intent-filter>
+88-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:73:13-77:29
+89                <action android:name="android.intent.action.MAIN" />
+89-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:74:17-69
+89-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:74:25-66
+90
+91                <category android:name="android.intent.category.LAUNCHER" />
+91-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:76:17-77
+91-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:76:27-74
+92            </intent-filter>
+93        </activity>
+94        <activity
+94-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:79:9-81:40
+95            android:name="com.example.swarguru.MainActivity"
+95-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:80:13-41
+96            android:exported="false" />
+96-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:81:13-37
+97
+98        <meta-data
+98-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:83:9-85:57
+99            android:name="preloaded_fonts"
+99-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:84:13-43
+100            android:resource="@array/preloaded_fonts" />
+100-->C:\Users\mahen\AndroidStudioProjects\SwarGuru\app\src\main\AndroidManifest.xml:85:13-54
+101
+102        <provider
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mahen\.gradle\caches\transforms-3\940e0085ee1366cef47ea5891a529993\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+103            android:name="androidx.startup.InitializationProvider"
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mahen\.gradle\caches\transforms-3\940e0085ee1366cef47ea5891a529993\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+104            android:authorities="com.example.swarguru.androidx-startup"
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mahen\.gradle\caches\transforms-3\940e0085ee1366cef47ea5891a529993\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+105            android:exported="false" >
+105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mahen\.gradle\caches\transforms-3\940e0085ee1366cef47ea5891a529993\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+106            <meta-data
+106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mahen\.gradle\caches\transforms-3\940e0085ee1366cef47ea5891a529993\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+107                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+107-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mahen\.gradle\caches\transforms-3\940e0085ee1366cef47ea5891a529993\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+108                android:value="androidx.startup" />
+108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mahen\.gradle\caches\transforms-3\940e0085ee1366cef47ea5891a529993\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+109            <meta-data
+109-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\mahen\.gradle\caches\transforms-3\455286b7615634d42526cf1c6917c552\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+110                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+110-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\mahen\.gradle\caches\transforms-3\455286b7615634d42526cf1c6917c552\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+111                android:value="androidx.startup" />
+111-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\mahen\.gradle\caches\transforms-3\455286b7615634d42526cf1c6917c552\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
 112            <meta-data
-112-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mahen\.gradle\caches\transforms-3\940e0085ee1366cef47ea5891a529993\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-113                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-113-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mahen\.gradle\caches\transforms-3\940e0085ee1366cef47ea5891a529993\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+113                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
 114                android:value="androidx.startup" />
-114-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mahen\.gradle\caches\transforms-3\940e0085ee1366cef47ea5891a529993\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-115            <meta-data
-115-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\mahen\.gradle\caches\transforms-3\455286b7615634d42526cf1c6917c552\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
-116                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-116-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\mahen\.gradle\caches\transforms-3\455286b7615634d42526cf1c6917c552\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
-117                android:value="androidx.startup" />
-117-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\mahen\.gradle\caches\transforms-3\455286b7615634d42526cf1c6917c552\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
-118            <meta-data
-118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-119                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-120                android:value="androidx.startup" />
-120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-121        </provider>
-122
-123        <receiver
-123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-124            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-125            android:directBootAware="false"
-125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-126            android:enabled="true"
-126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-127            android:exported="true"
-127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-128            android:permission="android.permission.DUMP" >
-128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+115        </provider>
+116
+117        <receiver
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+118            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+119            android:directBootAware="false"
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+120            android:enabled="true"
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+121            android:exported="true"
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+122            android:permission="android.permission.DUMP" >
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+124                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+127                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+128            </intent-filter>
 129            <intent-filter>
-129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-130                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+130                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
 131            </intent-filter>
 132            <intent-filter>
-132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-133                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+133                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
 134            </intent-filter>
-135            <intent-filter>
-135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-136                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-136-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-136-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-137            </intent-filter>
-138            <intent-filter>
-138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-139                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahen\.gradle\caches\transforms-3\c9cac15fc84ffb48cc25a2b73dc7bcdd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-140            </intent-filter>
-141        </receiver>
-142    </application>
-143
-144</manifest>
+135        </receiver>
+136    </application>
+137
+138</manifest>

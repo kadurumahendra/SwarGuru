@@ -33,6 +33,9 @@ public final class ActivityWordsBinding implements ViewBinding {
   public final ImageView imageView;
 
   @NonNull
+  public final ImageView imageView6;
+
+  @NonNull
   public final ConstraintLayout main;
 
   @NonNull
@@ -49,13 +52,14 @@ public final class ActivityWordsBinding implements ViewBinding {
 
   private ActivityWordsBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout buttonContainer, @NonNull AppCompatButton continueBtn,
-      @NonNull ImageView imageView, @NonNull ConstraintLayout main,
+      @NonNull ImageView imageView, @NonNull ImageView imageView6, @NonNull ConstraintLayout main,
       @NonNull TextInputLayout selectRouteLayout, @NonNull AutoCompleteTextView selectWordsTV,
       @NonNull TextView textView3, @NonNull TextView textView5) {
     this.rootView = rootView;
     this.buttonContainer = buttonContainer;
     this.continueBtn = continueBtn;
     this.imageView = imageView;
+    this.imageView6 = imageView6;
     this.main = main;
     this.selectRouteLayout = selectRouteLayout;
     this.selectWordsTV = selectWordsTV;
@@ -108,6 +112,12 @@ public final class ActivityWordsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView6;
+      ImageView imageView6 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView6 == null) {
+        break missingId;
+      }
+
       ConstraintLayout main = (ConstraintLayout) rootView;
 
       id = R.id.select_route_layout;
@@ -135,7 +145,7 @@ public final class ActivityWordsBinding implements ViewBinding {
       }
 
       return new ActivityWordsBinding((ConstraintLayout) rootView, buttonContainer, continueBtn,
-          imageView, main, selectRouteLayout, selectWordsTV, textView3, textView5);
+          imageView, imageView6, main, selectRouteLayout, selectWordsTV, textView3, textView5);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
