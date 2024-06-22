@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomAutoCompleteTextView" parent="Widget.MaterialComponents.AutoCompleteTextView.OutlinedBox">
+        <item name="android:dropDownHeight">200dp</item> <!-- Adjust the height as per your requirement -->
+        <item name="android:background">#FF4081</item>
+        <item name="android:popupBackground">@drawable/curved_bottom_bg_10dp</item>
+        <item name="android:textColor">@color/black</item> <!-- Set custom text color -->
+        <item name="android:bottomRightRadius">10dp</item> <!-- Optional: Set corner radius -->
+        <item name="android:bottomLeftRadius">10dp</item>
+    </style>
+</resources>
