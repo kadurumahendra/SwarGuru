@@ -16,19 +16,19 @@
             android:name=".QuizActivity"
             android:exported="false" />
         <activity
-            android:name=".Profile_speechtherapyActivity"
+            android:name=".SpeechTherapyActivity"
             android:exported="false" />
         <activity
-            android:name=".Profile_ChangepasswordActivity"
+            android:name=".ChangePasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".Profile_EditbuttonActivity"
+            android:name=".EditProfileActivity"
             android:exported="false" />
         <activity
             android:name=".AnimationActivity"
             android:exported="false" />
         <activity
-            android:name=".Letter_Words_Activity"
+            android:name=".LetterWordsActivity"
             android:exported="false" />
         <activity
             android:name=".LettersActivity"
@@ -37,13 +37,7 @@
             android:name=".LevelActivity"
             android:exported="false" />
         <activity
-            android:name=".WelcomesActivity"
-            android:exported="false" />
-        <activity
             android:name=".DashboardActivity"
-            android:exported="false" />
-        <activity
-            android:name=".HomePageActivity"
             android:exported="false" />
         <activity
             android:name=".TherapistActivity"
@@ -56,9 +50,6 @@
             android:exported="false" />
         <activity
             android:name=".SpeechLevelActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AgeActivity"
             android:exported="false" />
         <activity
             android:name=".LanguageActivity"
