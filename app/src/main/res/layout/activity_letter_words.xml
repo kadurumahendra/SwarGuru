@@ -21,6 +21,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_button"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
             <TextView
                 android:id="@+id/toolbarAppNameTv"
                 android:layout_width="wrap_content"
@@ -33,18 +41,24 @@
                 android:textColor="@color/yellow"
                 android:textSize="25sp"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toStartOf="@id/toolbarProfileIconIv"
+                app:layout_constraintEnd_toStartOf="@+id/cardViewProfile"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
-            <ImageView
-                android:id="@+id/toolbarProfileIconIv"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
-                android:paddingHorizontal="20dp"
-                android:src="@drawable/toolbar_profile_icon"
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewProfile"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                app:cardCornerRadius="200dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:src="@drawable/profile_updated" />
+            </androidx.cardview.widget.CardView>
 
             <ImageView
                 android:layout_width="wrap_content"

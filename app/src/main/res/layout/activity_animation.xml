@@ -21,32 +21,46 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/back_button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
             <TextView
                 android:id="@+id/toolbarAppNameTv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="SwarGuru"
+                android:layout_marginTop="30dp"
                 android:drawableLeft="@drawable/applogo_icon"
                 android:drawablePadding="20dp"
+                android:gravity="center"
+                android:text="SwarGuru"
+                android:textColor="@color/yellow"
                 android:textSize="25sp"
                 android:textStyle="bold"
-                android:gravity="center"
-                android:textColor="@color/yellow"
-                android:layout_marginTop="30dp"
+                app:layout_constraintEnd_toStartOf="@+id/cardViewProfile"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toStartOf="@id/toolbarProfileIconIv"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageView
-                android:id="@+id/toolbarProfileIconIv"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/toolbar_profile_icon"
-                android:layout_marginTop="30dp"
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp"
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewProfile"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                app:cardCornerRadius="200dp"
+                android:layout_marginTop="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/logo" />
+            </androidx.cardview.widget.CardView>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.appcompat.widget.Toolbar>
@@ -98,8 +112,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/box1"
-        android:layout_width="200dp"
-        android:layout_height="70dp"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/curved_level_bg_20dp"
         android:clickable="true"
@@ -112,9 +126,9 @@
         app:layout_constraintTop_toBottomOf="@id/textView25">
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="play"
+            android:text="Record and play"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:fontFamily="@font/inter_bold"
