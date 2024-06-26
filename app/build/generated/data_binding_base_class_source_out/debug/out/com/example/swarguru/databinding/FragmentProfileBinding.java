@@ -4,11 +4,11 @@ package com.example.swarguru.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -22,13 +22,13 @@ public final class FragmentProfileBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final CardView cardViewProfile;
+
+  @NonNull
   public final TextView changePasswordTV;
 
   @NonNull
   public final TextView editProfileTV;
-
-  @NonNull
-  public final ImageView imageView5;
 
   @NonNull
   public final ConstraintLayout profileCL;
@@ -43,13 +43,13 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final Toolbar view;
 
   private FragmentProfileBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView changePasswordTV, @NonNull TextView editProfileTV,
-      @NonNull ImageView imageView5, @NonNull ConstraintLayout profileCL,
+      @NonNull CardView cardViewProfile, @NonNull TextView changePasswordTV,
+      @NonNull TextView editProfileTV, @NonNull ConstraintLayout profileCL,
       @NonNull TextView progessTV, @NonNull TextView speechTherapyTV, @NonNull Toolbar view) {
     this.rootView = rootView;
+    this.cardViewProfile = cardViewProfile;
     this.changePasswordTV = changePasswordTV;
     this.editProfileTV = editProfileTV;
-    this.imageView5 = imageView5;
     this.profileCL = profileCL;
     this.progessTV = progessTV;
     this.speechTherapyTV = speechTherapyTV;
@@ -83,6 +83,12 @@ public final class FragmentProfileBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.cardViewProfile;
+      CardView cardViewProfile = ViewBindings.findChildViewById(rootView, id);
+      if (cardViewProfile == null) {
+        break missingId;
+      }
+
       id = R.id.changePasswordTV;
       TextView changePasswordTV = ViewBindings.findChildViewById(rootView, id);
       if (changePasswordTV == null) {
@@ -92,12 +98,6 @@ public final class FragmentProfileBinding implements ViewBinding {
       id = R.id.editProfileTV;
       TextView editProfileTV = ViewBindings.findChildViewById(rootView, id);
       if (editProfileTV == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView5;
-      ImageView imageView5 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView5 == null) {
         break missingId;
       }
 
@@ -125,8 +125,8 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentProfileBinding((ConstraintLayout) rootView, changePasswordTV,
-          editProfileTV, imageView5, profileCL, progessTV, speechTherapyTV, view);
+      return new FragmentProfileBinding((ConstraintLayout) rootView, cardViewProfile,
+          changePasswordTV, editProfileTV, profileCL, progessTV, speechTherapyTV, view);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

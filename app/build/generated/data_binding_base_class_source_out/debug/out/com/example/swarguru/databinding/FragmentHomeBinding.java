@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.Guideline;
 import androidx.viewbinding.ViewBinding;
@@ -27,6 +28,9 @@ public final class FragmentHomeBinding implements ViewBinding {
 
   @NonNull
   public final ConstraintLayout box2;
+
+  @NonNull
+  public final CardView cardViewProfile;
 
   @NonNull
   public final ConstraintLayout curvedRectangleCL;
@@ -68,26 +72,24 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final TextView toolbarAppNameTv;
 
   @NonNull
-  public final ImageView toolbarProfileIconIv;
-
-  @NonNull
   public final TextView toolbarProfileNameTv;
 
   @NonNull
   public final Toolbar view;
 
   private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull ConstraintLayout box1,
-      @NonNull ConstraintLayout box2, @NonNull ConstraintLayout curvedRectangleCL,
-      @NonNull Guideline guideline, @NonNull ImageView imageView3, @NonNull ImageView imageView4,
-      @NonNull ConstraintLayout main, @NonNull ConstraintLayout rectangle,
-      @NonNull ConstraintLayout rectangleContainer, @NonNull TextView seeModuleTV,
-      @NonNull TextView textView12, @NonNull TextView textView15, @NonNull TextView textView16,
-      @NonNull TextView textView17, @NonNull TextView toolbarAppNameTv,
-      @NonNull ImageView toolbarProfileIconIv, @NonNull TextView toolbarProfileNameTv,
+      @NonNull ConstraintLayout box2, @NonNull CardView cardViewProfile,
+      @NonNull ConstraintLayout curvedRectangleCL, @NonNull Guideline guideline,
+      @NonNull ImageView imageView3, @NonNull ImageView imageView4, @NonNull ConstraintLayout main,
+      @NonNull ConstraintLayout rectangle, @NonNull ConstraintLayout rectangleContainer,
+      @NonNull TextView seeModuleTV, @NonNull TextView textView12, @NonNull TextView textView15,
+      @NonNull TextView textView16, @NonNull TextView textView17,
+      @NonNull TextView toolbarAppNameTv, @NonNull TextView toolbarProfileNameTv,
       @NonNull Toolbar view) {
     this.rootView = rootView;
     this.box1 = box1;
     this.box2 = box2;
+    this.cardViewProfile = cardViewProfile;
     this.curvedRectangleCL = curvedRectangleCL;
     this.guideline = guideline;
     this.imageView3 = imageView3;
@@ -101,7 +103,6 @@ public final class FragmentHomeBinding implements ViewBinding {
     this.textView16 = textView16;
     this.textView17 = textView17;
     this.toolbarAppNameTv = toolbarAppNameTv;
-    this.toolbarProfileIconIv = toolbarProfileIconIv;
     this.toolbarProfileNameTv = toolbarProfileNameTv;
     this.view = view;
   }
@@ -142,6 +143,12 @@ public final class FragmentHomeBinding implements ViewBinding {
       id = R.id.box2;
       ConstraintLayout box2 = ViewBindings.findChildViewById(rootView, id);
       if (box2 == null) {
+        break missingId;
+      }
+
+      id = R.id.cardViewProfile;
+      CardView cardViewProfile = ViewBindings.findChildViewById(rootView, id);
+      if (cardViewProfile == null) {
         break missingId;
       }
 
@@ -219,12 +226,6 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.toolbarProfileIconIv;
-      ImageView toolbarProfileIconIv = ViewBindings.findChildViewById(rootView, id);
-      if (toolbarProfileIconIv == null) {
-        break missingId;
-      }
-
       id = R.id.toolbarProfileNameTv;
       TextView toolbarProfileNameTv = ViewBindings.findChildViewById(rootView, id);
       if (toolbarProfileNameTv == null) {
@@ -237,9 +238,9 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((ConstraintLayout) rootView, box1, box2, curvedRectangleCL,
-          guideline, imageView3, imageView4, main, rectangle, rectangleContainer, seeModuleTV,
-          textView12, textView15, textView16, textView17, toolbarAppNameTv, toolbarProfileIconIv,
+      return new FragmentHomeBinding((ConstraintLayout) rootView, box1, box2, cardViewProfile,
+          curvedRectangleCL, guideline, imageView3, imageView4, main, rectangle, rectangleContainer,
+          seeModuleTV, textView12, textView15, textView16, textView17, toolbarAppNameTv,
           toolbarProfileNameTv, view);
     }
     String missingId = rootView.getResources().getResourceName(id);

@@ -35,6 +35,10 @@ class HomeFragment : Fragment() {
             val intent = Intent(requireContext(),AnimationActivity::class.java)
             startActivity(intent)
         }
+        binding.homeProfile.setOnClickListener {
+            val intent = Intent(requireContext(),LevelActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 

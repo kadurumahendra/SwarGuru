@@ -5,11 +5,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
-import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.appcompat.widget.Toolbar;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -26,13 +27,13 @@ public final class ActivityProfileEditbuttonBinding implements ViewBinding {
   public final ConstraintLayout buttonContainer;
 
   @NonNull
+  public final CardView cardViewProfile;
+
+  @NonNull
   public final EditText childAgeEditText;
 
   @NonNull
   public final EditText emailEditText;
-
-  @NonNull
-  public final ImageView imageView5;
 
   @NonNull
   public final ConstraintLayout main;
@@ -44,24 +45,29 @@ public final class ActivityProfileEditbuttonBinding implements ViewBinding {
   public final AppCompatButton saveBtn;
 
   @NonNull
+  public final TextView textView22;
+
+  @NonNull
   public final EditText usernameEditText;
 
   @NonNull
   public final Toolbar view;
 
   private ActivityProfileEditbuttonBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout buttonContainer, @NonNull EditText childAgeEditText,
-      @NonNull EditText emailEditText, @NonNull ImageView imageView5,
+      @NonNull ConstraintLayout buttonContainer, @NonNull CardView cardViewProfile,
+      @NonNull EditText childAgeEditText, @NonNull EditText emailEditText,
       @NonNull ConstraintLayout main, @NonNull EditText mobileNoEditText,
-      @NonNull AppCompatButton saveBtn, @NonNull EditText usernameEditText, @NonNull Toolbar view) {
+      @NonNull AppCompatButton saveBtn, @NonNull TextView textView22,
+      @NonNull EditText usernameEditText, @NonNull Toolbar view) {
     this.rootView = rootView;
     this.buttonContainer = buttonContainer;
+    this.cardViewProfile = cardViewProfile;
     this.childAgeEditText = childAgeEditText;
     this.emailEditText = emailEditText;
-    this.imageView5 = imageView5;
     this.main = main;
     this.mobileNoEditText = mobileNoEditText;
     this.saveBtn = saveBtn;
+    this.textView22 = textView22;
     this.usernameEditText = usernameEditText;
     this.view = view;
   }
@@ -99,6 +105,12 @@ public final class ActivityProfileEditbuttonBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.cardViewProfile;
+      CardView cardViewProfile = ViewBindings.findChildViewById(rootView, id);
+      if (cardViewProfile == null) {
+        break missingId;
+      }
+
       id = R.id.childAgeEditText;
       EditText childAgeEditText = ViewBindings.findChildViewById(rootView, id);
       if (childAgeEditText == null) {
@@ -108,12 +120,6 @@ public final class ActivityProfileEditbuttonBinding implements ViewBinding {
       id = R.id.emailEditText;
       EditText emailEditText = ViewBindings.findChildViewById(rootView, id);
       if (emailEditText == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView5;
-      ImageView imageView5 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView5 == null) {
         break missingId;
       }
 
@@ -131,6 +137,12 @@ public final class ActivityProfileEditbuttonBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView22;
+      TextView textView22 = ViewBindings.findChildViewById(rootView, id);
+      if (textView22 == null) {
+        break missingId;
+      }
+
       id = R.id.usernameEditText;
       EditText usernameEditText = ViewBindings.findChildViewById(rootView, id);
       if (usernameEditText == null) {
@@ -144,8 +156,8 @@ public final class ActivityProfileEditbuttonBinding implements ViewBinding {
       }
 
       return new ActivityProfileEditbuttonBinding((ConstraintLayout) rootView, buttonContainer,
-          childAgeEditText, emailEditText, imageView5, main, mobileNoEditText, saveBtn,
-          usernameEditText, view);
+          cardViewProfile, childAgeEditText, emailEditText, main, mobileNoEditText, saveBtn,
+          textView22, usernameEditText, view);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

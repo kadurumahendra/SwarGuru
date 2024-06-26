@@ -3110,6 +3110,7 @@ drawable navigation_empty_icon
 drawable new_graph
 drawable new_home
 drawable new_profile
+drawable next_button
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -3122,13 +3123,17 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable parent_icon
 drawable playtime_removebg_preview
 drawable pomegrante
+drawable previous_button
 drawable profile
 drawable profile_icon
 drawable profile_updated
 drawable profileman_icon
+drawable quiz_image
 drawable quiz_rectangle
+drawable speech_icons
 drawable speech_level
 drawable speech_therapy
 drawable test_level_drawable
@@ -3137,6 +3142,7 @@ drawable toolbar_profile_icon
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable update_icon
+drawable vocalbulary
 drawable words
 drawable yellow_access_button
 font hind_bold
@@ -3396,12 +3402,13 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
-id imageView5
 id imageView6
 id imageView6_1
 id imageView6_2
 id imageView6_3
 id imageView6_4
+id imageView7_1
+id imageView7_2
 id imageViewLogo
 id immediateStop
 id included
@@ -3550,6 +3557,7 @@ id progress_circular
 id progress_horizontal
 id questionEditText
 id quizBox1
+id quizbox
 id radio
 id radioButton1
 id radioButton2
@@ -3621,6 +3629,7 @@ id spacer
 id special_effects_controller_view_tag
 id speechLevelRG
 id speechTherapyTV
+id speechvideos
 id spline
 id split_action_bar
 id spread
@@ -3676,6 +3685,8 @@ id textView18
 id textView19
 id textView2
 id textView20
+id textView21
+id textView22
 id textView23
 id textView24
 id textView25
@@ -3734,6 +3745,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id vocalbularybox
 id west
 id withText
 id with_icon
@@ -3895,6 +3907,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dropdown_item
+layout fragment_adminhome
 layout fragment_graph
 layout fragment_home
 layout fragment_profile
@@ -3959,6 +3972,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu adminmenu_bar
 menu menu_bar
 mipmap ic_launcher
 mipmap ic_launcher_round

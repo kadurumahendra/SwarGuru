@@ -5,11 +5,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
-import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.appcompat.widget.Toolbar;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -26,10 +27,10 @@ public final class ActivityProfileChangepasswordBinding implements ViewBinding {
   public final ConstraintLayout buttonContainer;
 
   @NonNull
-  public final EditText createnewpasswordEditText;
+  public final CardView cardViewProfile;
 
   @NonNull
-  public final ImageView imageView5;
+  public final EditText createnewpasswordEditText;
 
   @NonNull
   public final ConstraintLayout main;
@@ -44,21 +45,25 @@ public final class ActivityProfileChangepasswordBinding implements ViewBinding {
   public final AppCompatButton saveBtn;
 
   @NonNull
+  public final TextView textView21;
+
+  @NonNull
   public final Toolbar view;
 
   private ActivityProfileChangepasswordBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout buttonContainer, @NonNull EditText createnewpasswordEditText,
-      @NonNull ImageView imageView5, @NonNull ConstraintLayout main,
+      @NonNull ConstraintLayout buttonContainer, @NonNull CardView cardViewProfile,
+      @NonNull EditText createnewpasswordEditText, @NonNull ConstraintLayout main,
       @NonNull EditText oldpasswordEditText, @NonNull EditText reenterpasswordEditText,
-      @NonNull AppCompatButton saveBtn, @NonNull Toolbar view) {
+      @NonNull AppCompatButton saveBtn, @NonNull TextView textView21, @NonNull Toolbar view) {
     this.rootView = rootView;
     this.buttonContainer = buttonContainer;
+    this.cardViewProfile = cardViewProfile;
     this.createnewpasswordEditText = createnewpasswordEditText;
-    this.imageView5 = imageView5;
     this.main = main;
     this.oldpasswordEditText = oldpasswordEditText;
     this.reenterpasswordEditText = reenterpasswordEditText;
     this.saveBtn = saveBtn;
+    this.textView21 = textView21;
     this.view = view;
   }
 
@@ -95,15 +100,15 @@ public final class ActivityProfileChangepasswordBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.createnewpasswordEditText;
-      EditText createnewpasswordEditText = ViewBindings.findChildViewById(rootView, id);
-      if (createnewpasswordEditText == null) {
+      id = R.id.cardViewProfile;
+      CardView cardViewProfile = ViewBindings.findChildViewById(rootView, id);
+      if (cardViewProfile == null) {
         break missingId;
       }
 
-      id = R.id.imageView5;
-      ImageView imageView5 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView5 == null) {
+      id = R.id.createnewpasswordEditText;
+      EditText createnewpasswordEditText = ViewBindings.findChildViewById(rootView, id);
+      if (createnewpasswordEditText == null) {
         break missingId;
       }
 
@@ -127,6 +132,12 @@ public final class ActivityProfileChangepasswordBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView21;
+      TextView textView21 = ViewBindings.findChildViewById(rootView, id);
+      if (textView21 == null) {
+        break missingId;
+      }
+
       id = R.id.view;
       Toolbar view = ViewBindings.findChildViewById(rootView, id);
       if (view == null) {
@@ -134,8 +145,8 @@ public final class ActivityProfileChangepasswordBinding implements ViewBinding {
       }
 
       return new ActivityProfileChangepasswordBinding((ConstraintLayout) rootView, buttonContainer,
-          createnewpasswordEditText, imageView5, main, oldpasswordEditText, reenterpasswordEditText,
-          saveBtn, view);
+          cardViewProfile, createnewpasswordEditText, main, oldpasswordEditText,
+          reenterpasswordEditText, saveBtn, textView21, view);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

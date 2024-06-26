@@ -1,98 +1,106 @@
 [
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/activity_dashboard.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/activity_dashboard.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_level.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_level.xml"
     },
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/activity_profile_editbutton.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/activity_profile_editbutton.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_age.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_age.xml"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\fragment_adminhome.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\fragment_adminhome.xml"
     },
     {
         "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/activity_profile_changepassword.xml",
         "source": "com.example.swarguru.app-main-33:/layout/activity_profile_changepassword.xml"
     },
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/activity_therapist.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/activity_therapist.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_language.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_language.xml"
     },
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/fragment_home.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/fragment_home.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_register.xml"
     },
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/activity_register.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/activity_register.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\dropdown_item.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\dropdown_item.xml"
     },
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/activity_login.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/activity_login.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/activity_level.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/activity_level.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/activity_welcome.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/activity_welcome.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\fragment_graph.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\fragment_graph.xml"
     },
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/activity_speech_level.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/activity_speech_level.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_quiz.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_quiz.xml"
     },
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/activity_animation.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/activity_animation.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_speech_level.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_speech_level.xml"
     },
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/activity_letters.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/activity_letters.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_letter_words.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_letter_words.xml"
     },
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/activity_letter_words.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/activity_letter_words.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_animation.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_animation.xml"
     },
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/dropdown_item.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/dropdown_item.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/activity_language.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/activity_language.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_profile_editbutton.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_profile_editbutton.xml"
     },
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/activity_admin_dashboard.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/activity_admin_dashboard.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_words.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_words.xml"
     },
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/activity_signup.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/activity_signup.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_dashboard.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_dashboard.xml"
     },
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/activity_quiz.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/activity_quiz.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_profile_changepassword.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_profile_changepassword.xml"
     },
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/activity_main.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/activity_main.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_therapist.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_therapist.xml"
     },
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/fragment_profile.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/fragment_profile.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_letters.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_letters.xml"
     },
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/activity_words.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/activity_words.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_admin_dashboard.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_admin_dashboard.xml"
     },
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/activity_age.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/activity_age.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_welcome.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_welcome.xml"
     },
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/activity_profile_speechtherapy.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/activity_profile_speechtherapy.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_profile_speechtherapy.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_profile_speechtherapy.xml"
     },
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/fragment_graph.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/fragment_graph.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_signup.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_signup.xml"
     }
 ]

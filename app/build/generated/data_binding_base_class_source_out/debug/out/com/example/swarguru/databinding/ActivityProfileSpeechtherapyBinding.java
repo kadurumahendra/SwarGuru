@@ -4,11 +4,11 @@ package com.example.swarguru.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -25,7 +25,7 @@ public final class ActivityProfileSpeechtherapyBinding implements ViewBinding {
   public final ConstraintLayout box1;
 
   @NonNull
-  public final ImageView imageView5;
+  public final CardView cardViewProfile;
 
   @NonNull
   public final ConstraintLayout main;
@@ -37,11 +37,11 @@ public final class ActivityProfileSpeechtherapyBinding implements ViewBinding {
   public final Toolbar view;
 
   private ActivityProfileSpeechtherapyBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout box1, @NonNull ImageView imageView5, @NonNull ConstraintLayout main,
-      @NonNull TextView textView26, @NonNull Toolbar view) {
+      @NonNull ConstraintLayout box1, @NonNull CardView cardViewProfile,
+      @NonNull ConstraintLayout main, @NonNull TextView textView26, @NonNull Toolbar view) {
     this.rootView = rootView;
     this.box1 = box1;
-    this.imageView5 = imageView5;
+    this.cardViewProfile = cardViewProfile;
     this.main = main;
     this.textView26 = textView26;
     this.view = view;
@@ -80,9 +80,9 @@ public final class ActivityProfileSpeechtherapyBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView5;
-      ImageView imageView5 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView5 == null) {
+      id = R.id.cardViewProfile;
+      CardView cardViewProfile = ViewBindings.findChildViewById(rootView, id);
+      if (cardViewProfile == null) {
         break missingId;
       }
 
@@ -100,8 +100,8 @@ public final class ActivityProfileSpeechtherapyBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityProfileSpeechtherapyBinding((ConstraintLayout) rootView, box1, imageView5,
-          main, textView26, view);
+      return new ActivityProfileSpeechtherapyBinding((ConstraintLayout) rootView, box1,
+          cardViewProfile, main, textView26, view);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

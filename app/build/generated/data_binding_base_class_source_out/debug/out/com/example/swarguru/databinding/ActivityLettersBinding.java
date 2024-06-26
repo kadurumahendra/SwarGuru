@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -28,10 +29,25 @@ public final class ActivityLettersBinding implements ViewBinding {
   public final ConstraintLayout box2;
 
   @NonNull
+  public final ConstraintLayout box3;
+
+  @NonNull
+  public final ConstraintLayout box4;
+
+  @NonNull
+  public final CardView cardViewProfile;
+
+  @NonNull
   public final ImageView imageView61;
 
   @NonNull
   public final ImageView imageView62;
+
+  @NonNull
+  public final ImageView imageView63;
+
+  @NonNull
+  public final ImageView imageView64;
 
   @NonNull
   public final ConstraintLayout main;
@@ -43,29 +59,32 @@ public final class ActivityLettersBinding implements ViewBinding {
   public final TextView toolbarAppNameTv;
 
   @NonNull
-  public final ImageView toolbarProfileIconIv;
-
-  @NonNull
   public final TextView toolbarProfileNameTv;
 
   @NonNull
   public final Toolbar view;
 
   private ActivityLettersBinding(@NonNull ConstraintLayout rootView, @NonNull ConstraintLayout box1,
-      @NonNull ConstraintLayout box2, @NonNull ImageView imageView61,
-      @NonNull ImageView imageView62, @NonNull ConstraintLayout main,
-      @NonNull ConstraintLayout rectangle1, @NonNull TextView toolbarAppNameTv,
-      @NonNull ImageView toolbarProfileIconIv, @NonNull TextView toolbarProfileNameTv,
+      @NonNull ConstraintLayout box2, @NonNull ConstraintLayout box3,
+      @NonNull ConstraintLayout box4, @NonNull CardView cardViewProfile,
+      @NonNull ImageView imageView61, @NonNull ImageView imageView62,
+      @NonNull ImageView imageView63, @NonNull ImageView imageView64,
+      @NonNull ConstraintLayout main, @NonNull ConstraintLayout rectangle1,
+      @NonNull TextView toolbarAppNameTv, @NonNull TextView toolbarProfileNameTv,
       @NonNull Toolbar view) {
     this.rootView = rootView;
     this.box1 = box1;
     this.box2 = box2;
+    this.box3 = box3;
+    this.box4 = box4;
+    this.cardViewProfile = cardViewProfile;
     this.imageView61 = imageView61;
     this.imageView62 = imageView62;
+    this.imageView63 = imageView63;
+    this.imageView64 = imageView64;
     this.main = main;
     this.rectangle1 = rectangle1;
     this.toolbarAppNameTv = toolbarAppNameTv;
-    this.toolbarProfileIconIv = toolbarProfileIconIv;
     this.toolbarProfileNameTv = toolbarProfileNameTv;
     this.view = view;
   }
@@ -109,6 +128,24 @@ public final class ActivityLettersBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.box3;
+      ConstraintLayout box3 = ViewBindings.findChildViewById(rootView, id);
+      if (box3 == null) {
+        break missingId;
+      }
+
+      id = R.id.box4;
+      ConstraintLayout box4 = ViewBindings.findChildViewById(rootView, id);
+      if (box4 == null) {
+        break missingId;
+      }
+
+      id = R.id.cardViewProfile;
+      CardView cardViewProfile = ViewBindings.findChildViewById(rootView, id);
+      if (cardViewProfile == null) {
+        break missingId;
+      }
+
       id = R.id.imageView6_1;
       ImageView imageView61 = ViewBindings.findChildViewById(rootView, id);
       if (imageView61 == null) {
@@ -118,6 +155,18 @@ public final class ActivityLettersBinding implements ViewBinding {
       id = R.id.imageView6_2;
       ImageView imageView62 = ViewBindings.findChildViewById(rootView, id);
       if (imageView62 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView6_3;
+      ImageView imageView63 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView63 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView6_4;
+      ImageView imageView64 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView64 == null) {
         break missingId;
       }
 
@@ -135,12 +184,6 @@ public final class ActivityLettersBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.toolbarProfileIconIv;
-      ImageView toolbarProfileIconIv = ViewBindings.findChildViewById(rootView, id);
-      if (toolbarProfileIconIv == null) {
-        break missingId;
-      }
-
       id = R.id.toolbarProfileNameTv;
       TextView toolbarProfileNameTv = ViewBindings.findChildViewById(rootView, id);
       if (toolbarProfileNameTv == null) {
@@ -153,9 +196,9 @@ public final class ActivityLettersBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLettersBinding((ConstraintLayout) rootView, box1, box2, imageView61,
-          imageView62, main, rectangle1, toolbarAppNameTv, toolbarProfileIconIv,
-          toolbarProfileNameTv, view);
+      return new ActivityLettersBinding((ConstraintLayout) rootView, box1, box2, box3, box4,
+          cardViewProfile, imageView61, imageView62, imageView63, imageView64, main, rectangle1,
+          toolbarAppNameTv, toolbarProfileNameTv, view);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
