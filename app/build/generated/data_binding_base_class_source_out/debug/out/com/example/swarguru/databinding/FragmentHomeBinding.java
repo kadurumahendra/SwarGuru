@@ -30,13 +30,13 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final ConstraintLayout box2;
 
   @NonNull
-  public final CardView cardViewProfile;
-
-  @NonNull
   public final ConstraintLayout curvedRectangleCL;
 
   @NonNull
   public final Guideline guideline;
+
+  @NonNull
+  public final CardView homeProfile;
 
   @NonNull
   public final ImageView imageView3;
@@ -78,9 +78,9 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final Toolbar view;
 
   private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull ConstraintLayout box1,
-      @NonNull ConstraintLayout box2, @NonNull CardView cardViewProfile,
-      @NonNull ConstraintLayout curvedRectangleCL, @NonNull Guideline guideline,
-      @NonNull ImageView imageView3, @NonNull ImageView imageView4, @NonNull ConstraintLayout main,
+      @NonNull ConstraintLayout box2, @NonNull ConstraintLayout curvedRectangleCL,
+      @NonNull Guideline guideline, @NonNull CardView homeProfile, @NonNull ImageView imageView3,
+      @NonNull ImageView imageView4, @NonNull ConstraintLayout main,
       @NonNull ConstraintLayout rectangle, @NonNull ConstraintLayout rectangleContainer,
       @NonNull TextView seeModuleTV, @NonNull TextView textView12, @NonNull TextView textView15,
       @NonNull TextView textView16, @NonNull TextView textView17,
@@ -89,9 +89,9 @@ public final class FragmentHomeBinding implements ViewBinding {
     this.rootView = rootView;
     this.box1 = box1;
     this.box2 = box2;
-    this.cardViewProfile = cardViewProfile;
     this.curvedRectangleCL = curvedRectangleCL;
     this.guideline = guideline;
+    this.homeProfile = homeProfile;
     this.imageView3 = imageView3;
     this.imageView4 = imageView4;
     this.main = main;
@@ -146,12 +146,6 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.cardViewProfile;
-      CardView cardViewProfile = ViewBindings.findChildViewById(rootView, id);
-      if (cardViewProfile == null) {
-        break missingId;
-      }
-
       id = R.id.curvedRectangleCL;
       ConstraintLayout curvedRectangleCL = ViewBindings.findChildViewById(rootView, id);
       if (curvedRectangleCL == null) {
@@ -161,6 +155,12 @@ public final class FragmentHomeBinding implements ViewBinding {
       id = R.id.guideline;
       Guideline guideline = ViewBindings.findChildViewById(rootView, id);
       if (guideline == null) {
+        break missingId;
+      }
+
+      id = R.id.homeProfile;
+      CardView homeProfile = ViewBindings.findChildViewById(rootView, id);
+      if (homeProfile == null) {
         break missingId;
       }
 
@@ -238,8 +238,8 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((ConstraintLayout) rootView, box1, box2, cardViewProfile,
-          curvedRectangleCL, guideline, imageView3, imageView4, main, rectangle, rectangleContainer,
+      return new FragmentHomeBinding((ConstraintLayout) rootView, box1, box2, curvedRectangleCL,
+          guideline, homeProfile, imageView3, imageView4, main, rectangle, rectangleContainer,
           seeModuleTV, textView12, textView15, textView16, textView17, toolbarAppNameTv,
           toolbarProfileNameTv, view);
     }

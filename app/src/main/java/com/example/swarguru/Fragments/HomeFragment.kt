@@ -18,11 +18,9 @@ class HomeFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentHomeBinding.inflate(layoutInflater)
-
         setUpListeners()
-
         return binding.root
     }
 
@@ -36,8 +34,9 @@ class HomeFragment : Fragment() {
             startActivity(intent)
         }
         binding.homeProfile.setOnClickListener {
-            val intent = Intent(requireContext(),LevelActivity::class.java)
-            startActivity(intent)
+            parentFragmentManager.beginTransaction()
+                .replace(R.id.frameLayout, ProfileFragment())
+                .commit()
         }
 
     }

@@ -16,8 +16,12 @@
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\fragment_adminhome.xml"
     },
     {
-        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/activity_profile_changepassword.xml",
-        "source": "com.example.swarguru.app-main-33:/layout/activity_profile_changepassword.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\add_question_layout.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\add_question_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_admin_vocalbulary.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_admin_vocalbulary.xml"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_language.xml",
@@ -48,12 +52,24 @@
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_quiz.xml"
     },
     {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\fragment_admin_parent.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\fragment_admin_parent.xml"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_admin_letters.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_admin_letters.xml"
+    },
+    {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_speech_level.xml",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_speech_level.xml"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_letter_words.xml",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_letter_words.xml"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_admin_quiz.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_admin_quiz.xml"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_animation.xml",
@@ -92,12 +108,24 @@
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_admin_dashboard.xml"
     },
     {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\fragment_speech_videos.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\fragment_speech_videos.xml"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\letter_layout.xml",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\letter_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_welcome.xml",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_welcome.xml"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_profile_speechtherapy.xml",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_profile_speechtherapy.xml"
+    },
+    {
+        "merged": "com.example.swarguru.app-mergeDebugResources-30:/layout/activity_admin_quiz.xml",
+        "source": "com.example.swarguru.app-main-33:/layout/activity_admin_quiz.xml"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-mergeDebugResources-30:\\layout\\activity_signup.xml",

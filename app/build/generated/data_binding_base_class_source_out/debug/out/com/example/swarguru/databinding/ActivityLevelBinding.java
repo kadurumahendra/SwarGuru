@@ -4,11 +4,11 @@ package com.example.swarguru.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -22,22 +22,25 @@ public final class ActivityLevelBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ConstraintLayout box1;
+  public final ConstraintLayout advancedbox;
 
   @NonNull
-  public final ConstraintLayout box2;
+  public final ConstraintLayout beginnerbox;
 
   @NonNull
-  public final ConstraintLayout box3;
+  public final ConstraintLayout intermediatebox;
+
+  @NonNull
+  public final CardView letterProfile;
 
   @NonNull
   public final ConstraintLayout main;
 
   @NonNull
-  public final TextView toolbarAppNameTv;
+  public final TextView textView28;
 
   @NonNull
-  public final ImageView toolbarProfileIconIv;
+  public final TextView toolbarAppNameTv;
 
   @NonNull
   public final TextView toolbarProfileNameTv;
@@ -45,18 +48,20 @@ public final class ActivityLevelBinding implements ViewBinding {
   @NonNull
   public final Toolbar view;
 
-  private ActivityLevelBinding(@NonNull ConstraintLayout rootView, @NonNull ConstraintLayout box1,
-      @NonNull ConstraintLayout box2, @NonNull ConstraintLayout box3,
-      @NonNull ConstraintLayout main, @NonNull TextView toolbarAppNameTv,
-      @NonNull ImageView toolbarProfileIconIv, @NonNull TextView toolbarProfileNameTv,
+  private ActivityLevelBinding(@NonNull ConstraintLayout rootView,
+      @NonNull ConstraintLayout advancedbox, @NonNull ConstraintLayout beginnerbox,
+      @NonNull ConstraintLayout intermediatebox, @NonNull CardView letterProfile,
+      @NonNull ConstraintLayout main, @NonNull TextView textView28,
+      @NonNull TextView toolbarAppNameTv, @NonNull TextView toolbarProfileNameTv,
       @NonNull Toolbar view) {
     this.rootView = rootView;
-    this.box1 = box1;
-    this.box2 = box2;
-    this.box3 = box3;
+    this.advancedbox = advancedbox;
+    this.beginnerbox = beginnerbox;
+    this.intermediatebox = intermediatebox;
+    this.letterProfile = letterProfile;
     this.main = main;
+    this.textView28 = textView28;
     this.toolbarAppNameTv = toolbarAppNameTv;
-    this.toolbarProfileIconIv = toolbarProfileIconIv;
     this.toolbarProfileNameTv = toolbarProfileNameTv;
     this.view = view;
   }
@@ -88,35 +93,41 @@ public final class ActivityLevelBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.box1;
-      ConstraintLayout box1 = ViewBindings.findChildViewById(rootView, id);
-      if (box1 == null) {
+      id = R.id.advancedbox;
+      ConstraintLayout advancedbox = ViewBindings.findChildViewById(rootView, id);
+      if (advancedbox == null) {
         break missingId;
       }
 
-      id = R.id.box2;
-      ConstraintLayout box2 = ViewBindings.findChildViewById(rootView, id);
-      if (box2 == null) {
+      id = R.id.beginnerbox;
+      ConstraintLayout beginnerbox = ViewBindings.findChildViewById(rootView, id);
+      if (beginnerbox == null) {
         break missingId;
       }
 
-      id = R.id.box3;
-      ConstraintLayout box3 = ViewBindings.findChildViewById(rootView, id);
-      if (box3 == null) {
+      id = R.id.intermediatebox;
+      ConstraintLayout intermediatebox = ViewBindings.findChildViewById(rootView, id);
+      if (intermediatebox == null) {
+        break missingId;
+      }
+
+      id = R.id.letterProfile;
+      CardView letterProfile = ViewBindings.findChildViewById(rootView, id);
+      if (letterProfile == null) {
         break missingId;
       }
 
       ConstraintLayout main = (ConstraintLayout) rootView;
 
-      id = R.id.toolbarAppNameTv;
-      TextView toolbarAppNameTv = ViewBindings.findChildViewById(rootView, id);
-      if (toolbarAppNameTv == null) {
+      id = R.id.textView28;
+      TextView textView28 = ViewBindings.findChildViewById(rootView, id);
+      if (textView28 == null) {
         break missingId;
       }
 
-      id = R.id.toolbarProfileIconIv;
-      ImageView toolbarProfileIconIv = ViewBindings.findChildViewById(rootView, id);
-      if (toolbarProfileIconIv == null) {
+      id = R.id.toolbarAppNameTv;
+      TextView toolbarAppNameTv = ViewBindings.findChildViewById(rootView, id);
+      if (toolbarAppNameTv == null) {
         break missingId;
       }
 
@@ -132,8 +143,9 @@ public final class ActivityLevelBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLevelBinding((ConstraintLayout) rootView, box1, box2, box3, main,
-          toolbarAppNameTv, toolbarProfileIconIv, toolbarProfileNameTv, view);
+      return new ActivityLevelBinding((ConstraintLayout) rootView, advancedbox, beginnerbox,
+          intermediatebox, letterProfile, main, textView28, toolbarAppNameTv, toolbarProfileNameTv,
+          view);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

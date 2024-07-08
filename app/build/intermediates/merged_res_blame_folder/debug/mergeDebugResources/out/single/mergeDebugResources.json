@@ -12,6 +12,10 @@
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\fragment_graph.xml"
     },
     {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_w.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\w.png"
+    },
+    {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\layout_activity_therapist.xml.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_therapist.xml"
     },
@@ -32,28 +36,44 @@
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\curved_green_bg_20dp.xml"
     },
     {
-        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_hindi_ma.png.flat",
-        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\hindi_ma.png"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\layout_fragment_admin_parent.xml.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\fragment_admin_parent.xml"
     },
     {
-        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\font_hind_bold.xml.flat",
-        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\font\\hind_bold.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_hindi_ma.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\hindi_ma.png"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\menu_adminmenu_bar.xml.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\menu\\adminmenu_bar.xml"
     },
     {
-        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\layout_activity_quiz.xml.flat",
-        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_quiz.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\font_hind_bold.xml.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\font\\hind_bold.xml"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_google.jpg.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\google.jpg"
     },
     {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\layout_activity_quiz.xml.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_quiz.xml"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_a.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\a.png"
+    },
+    {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_english.jpg.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\english.jpg"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_images.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\images.png"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_i.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\i.png"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_logo.jpg.flat",
@@ -80,6 +100,10 @@
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\flow_graph3.png"
     },
     {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_p.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\p.png"
+    },
+    {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_img_1.png.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\img_1.png"
     },
@@ -92,8 +116,16 @@
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\curved_blue_bg_10dp.xml"
     },
     {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_curved_bg_11dp.xml.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\curved_bg_11dp.xml"
+    },
+    {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_curved_bg_8dp.xml.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\curved_bg_8dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_x.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\x.png"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_curved_bg_12dp.xml.flat",
@@ -116,20 +148,28 @@
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\curved_bg_10dp.xml"
     },
     {
-        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_back_button.png.flat",
-        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\back_button.png"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_curved_bg_5dp.xml.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\curved_bg_5dp.xml"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_hindi_teacher.png.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\hindi_teacher.png"
     },
     {
-        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_curved_bg_5dp.xml.flat",
-        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\curved_bg_5dp.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_back_button.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\back_button.png"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_j.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\j.png"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_letters.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\letters.png"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_new_profile.png.flat",
@@ -148,8 +188,8 @@
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\logout_icon.png"
     },
     {
-        "merged": "com.example.swarguru.app-debug-31:/layout_activity_profile_changepassword.xml.flat",
-        "source": "com.example.swarguru.app-main-33:/layout/activity_profile_changepassword.xml"
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_q.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\q.png"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\layout_activity_register.xml.flat",
@@ -172,12 +212,28 @@
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\lock_icon.png"
     },
     {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_g.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\g.png"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\layout_activity_admin_quiz.xml.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_admin_quiz.xml"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_u.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\u.png"
+    },
+    {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_hello_icon.png.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\hello_icon.png"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_speech_therapy.png.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\speech_therapy.png"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_c.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\c.png"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_profileman_icon.png.flat",
@@ -198,6 +254,10 @@
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_hindi_aa.png.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\hindi_aa.png"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_r.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\r.png"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_profile_updated.png.flat",
@@ -236,6 +296,10 @@
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\fragment_adminhome.xml"
     },
     {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_o.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\o.png"
+    },
+    {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_applogo_icon.png.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\applogo_icon.png"
     },
@@ -256,8 +320,16 @@
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\google_removebg_preview.jpg"
     },
     {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\layout_add_question_layout.xml.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\add_question_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_l.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\l.png"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_lock_icons.png.flat",
@@ -286,6 +358,10 @@
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_hindi_ba.png.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\hindi_ba.png"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_e.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\e.png"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_home_icon.png.flat",
@@ -320,6 +396,10 @@
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\curved_rbg_10dp.xml"
     },
     {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\layout_activity_admin_letters.xml.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_admin_letters.xml"
+    },
+    {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_curved_red_bg_20dp.xml.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\curved_red_bg_20dp.xml"
     },
@@ -344,12 +424,20 @@
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_letters.xml"
     },
     {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_z.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\z.png"
+    },
+    {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_curved_bg_25dp.xml.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\curved_bg_25dp.xml"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_words.jpg.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\words.jpg"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\layout_fragment_speech_videos.xml.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\fragment_speech_videos.xml"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_therapist.jpg.flat",
@@ -364,8 +452,16 @@
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_animation.xml"
     },
     {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_f.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\f.png"
+    },
+    {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_img.png.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\img.png"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_m.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\m.png"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_access_icon.png.flat",
@@ -374,6 +470,14 @@
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_toolbar_profile_icon.png.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\toolbar_profile_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_d.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\d.png"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_t.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\t.png"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -420,6 +524,10 @@
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\playtime_removebg_preview.jpg"
     },
     {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_y.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\y.png"
+    },
+    {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
@@ -438,6 +546,10 @@
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_curvede_letter_bg_20dp.xml.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\curvede_letter_bg_20dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_n.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\n.png"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_flow_graph1.png.flat",
@@ -468,6 +580,14 @@
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\profile.png"
     },
     {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\layout_letter_layout.xml.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\letter_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_k.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\k.png"
+    },
+    {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_hindi_raa.png.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\hindi_raa.png"
     },
@@ -484,6 +604,10 @@
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\font\\inter_bold.xml"
     },
     {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_h.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\h.png"
+    },
+    {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_elipse_shape.xml.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\elipse_shape.xml"
     },
@@ -492,12 +616,28 @@
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\elipse_smallshape.xml"
     },
     {
+        "merged": "com.example.swarguru.app-debug-31:/layout_activity_admin_quiz.xml.flat",
+        "source": "com.example.swarguru.app-main-33:/layout/activity_admin_quiz.xml"
+    },
+    {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\layout_activity_login.xml.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_login.xml"
     },
     {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_s.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\s.png"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_b.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\b.png"
+    },
+    {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\layout_activity_speech_level.xml.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_speech_level.xml"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\layout_activity_admin_vocalbulary.xml.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\layout\\activity_admin_vocalbulary.xml"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_game.png.flat",
@@ -506,6 +646,10 @@
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_edit_icon.png.flat",
         "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\edit_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_v.png.flat",
+        "source": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-main-33:\\drawable\\v.png"
     },
     {
         "merged": "C:\\Users\\mahen\\.gradle\\daemon\\8.4\\com.example.swarguru.app-debug-31:\\drawable_flow_graph4.png.flat",

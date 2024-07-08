@@ -35,18 +35,27 @@
                 android:textColor="@color/yellow"
                 android:layout_marginTop="30dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toStartOf="@id/toolbarProfileIconIv"
+                app:layout_constraintEnd_toStartOf="@id/letterProfile"
                 app:layout_constraintTop_toTopOf="parent"/>
 
-            <ImageView
-                android:id="@+id/toolbarProfileIconIv"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/toolbar_profile_icon"
-                android:layout_marginTop="30dp"
-                android:paddingHorizontal="20dp"
+            <androidx.cardview.widget.CardView
+                android:id="@+id/letterProfile"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:cardBackgroundColor="@color/dark_violet"
+                app:cardCornerRadius="200dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginVertical="5dp"
+                    android:src="@drawable/account" />
+            </androidx.cardview.widget.CardView>
 
             <TextView
                 android:id="@+id/toolbarProfileNameTv"
@@ -66,7 +75,7 @@
     </androidx.appcompat.widget.Toolbar>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/box1"
+        android:id="@+id/beginnerbox"
         android:layout_width="350dp"
         android:layout_height="100dp"
         android:background="@drawable/curved_level_bg_20dp"
@@ -97,7 +106,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/box2"
+        android:id="@+id/intermediatebox"
         android:layout_width="350dp"
         android:layout_height="100dp"
         android:background="@drawable/curved_level_bg_20dp"
@@ -108,7 +117,7 @@
         android:paddingHorizontal="60dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/box1" >
+        app:layout_constraintTop_toBottomOf="@+id/beginnerbox" >
 
         <TextView
             android:layout_width="match_parent"
@@ -127,7 +136,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/box3"
+        android:id="@+id/advancedbox"
         android:layout_width="350dp"
         android:layout_height="100dp"
         android:layout_marginTop="40dp"
@@ -138,21 +147,30 @@
         android:paddingHorizontal="60dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/box2" >
+        app:layout_constraintTop_toBottomOf="@+id/intermediatebox" >
 
         <TextView
-            android:layout_width="match_parent"
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/inter_bold"
-            android:text="Advanced"
             android:gravity="center"
-            android:drawableEnd="@drawable/lock_icon"
+            android:text="Advanced"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="28sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="-25dp"
+            android:src="@drawable/lock_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 

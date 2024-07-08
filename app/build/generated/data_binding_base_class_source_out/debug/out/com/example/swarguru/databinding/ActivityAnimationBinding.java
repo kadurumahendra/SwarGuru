@@ -24,16 +24,16 @@ public final class ActivityAnimationBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final CardView animationProfile;
+
+  @NonNull
+  public final ImageButton backButton;
+
+  @NonNull
   public final ConstraintLayout box1;
 
   @NonNull
   public final CardView cardView;
-
-  @NonNull
-  public final CardView cardViewProfile;
-
-  @NonNull
-  public final ImageButton imageButton;
 
   @NonNull
   public final ImageView imageView;
@@ -54,15 +54,15 @@ public final class ActivityAnimationBinding implements ViewBinding {
   public final Toolbar view;
 
   private ActivityAnimationBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout box1, @NonNull CardView cardView, @NonNull CardView cardViewProfile,
-      @NonNull ImageButton imageButton, @NonNull ImageView imageView,
+      @NonNull CardView animationProfile, @NonNull ImageButton backButton,
+      @NonNull ConstraintLayout box1, @NonNull CardView cardView, @NonNull ImageView imageView,
       @NonNull ConstraintLayout main, @NonNull TextView textView14, @NonNull TextView textView25,
       @NonNull TextView toolbarAppNameTv, @NonNull Toolbar view) {
     this.rootView = rootView;
+    this.animationProfile = animationProfile;
+    this.backButton = backButton;
     this.box1 = box1;
     this.cardView = cardView;
-    this.cardViewProfile = cardViewProfile;
-    this.imageButton = imageButton;
     this.imageView = imageView;
     this.main = main;
     this.textView14 = textView14;
@@ -98,6 +98,18 @@ public final class ActivityAnimationBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.animationProfile;
+      CardView animationProfile = ViewBindings.findChildViewById(rootView, id);
+      if (animationProfile == null) {
+        break missingId;
+      }
+
+      id = R.id.backButton;
+      ImageButton backButton = ViewBindings.findChildViewById(rootView, id);
+      if (backButton == null) {
+        break missingId;
+      }
+
       id = R.id.box1;
       ConstraintLayout box1 = ViewBindings.findChildViewById(rootView, id);
       if (box1 == null) {
@@ -107,18 +119,6 @@ public final class ActivityAnimationBinding implements ViewBinding {
       id = R.id.cardView;
       CardView cardView = ViewBindings.findChildViewById(rootView, id);
       if (cardView == null) {
-        break missingId;
-      }
-
-      id = R.id.cardViewProfile;
-      CardView cardViewProfile = ViewBindings.findChildViewById(rootView, id);
-      if (cardViewProfile == null) {
-        break missingId;
-      }
-
-      id = R.id.imageButton;
-      ImageButton imageButton = ViewBindings.findChildViewById(rootView, id);
-      if (imageButton == null) {
         break missingId;
       }
 
@@ -154,9 +154,8 @@ public final class ActivityAnimationBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityAnimationBinding((ConstraintLayout) rootView, box1, cardView,
-          cardViewProfile, imageButton, imageView, main, textView14, textView25, toolbarAppNameTv,
-          view);
+      return new ActivityAnimationBinding((ConstraintLayout) rootView, animationProfile, backButton,
+          box1, cardView, imageView, main, textView14, textView25, toolbarAppNameTv, view);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

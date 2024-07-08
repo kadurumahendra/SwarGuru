@@ -4,6 +4,7 @@ package com.example.swarguru.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -23,6 +24,9 @@ public final class ActivityLetterWordsBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ImageButton backButton;
+
+  @NonNull
   public final ConstraintLayout box1;
 
   @NonNull
@@ -35,9 +39,6 @@ public final class ActivityLetterWordsBinding implements ViewBinding {
   public final ConstraintLayout box4;
 
   @NonNull
-  public final CardView cardViewProfile;
-
-  @NonNull
   public final ImageView imageView61;
 
   @NonNull
@@ -48,6 +49,9 @@ public final class ActivityLetterWordsBinding implements ViewBinding {
 
   @NonNull
   public final ImageView imageView64;
+
+  @NonNull
+  public final CardView letterWordsProfile;
 
   @NonNull
   public final ConstraintLayout main;
@@ -71,24 +75,26 @@ public final class ActivityLetterWordsBinding implements ViewBinding {
   public final Toolbar view;
 
   private ActivityLetterWordsBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout box1, @NonNull ConstraintLayout box2,
-      @NonNull ConstraintLayout box3, @NonNull ConstraintLayout box4,
-      @NonNull CardView cardViewProfile, @NonNull ImageView imageView61,
+      @NonNull ImageButton backButton, @NonNull ConstraintLayout box1,
+      @NonNull ConstraintLayout box2, @NonNull ConstraintLayout box3,
+      @NonNull ConstraintLayout box4, @NonNull ImageView imageView61,
       @NonNull ImageView imageView62, @NonNull ImageView imageView63,
-      @NonNull ImageView imageView64, @NonNull ConstraintLayout main,
-      @NonNull ConstraintLayout rectangle1, @NonNull ConstraintLayout rectangle2,
-      @NonNull ConstraintLayout rectangle3, @NonNull ConstraintLayout rectangle4,
-      @NonNull TextView toolbarAppNameTv, @NonNull Toolbar view) {
+      @NonNull ImageView imageView64, @NonNull CardView letterWordsProfile,
+      @NonNull ConstraintLayout main, @NonNull ConstraintLayout rectangle1,
+      @NonNull ConstraintLayout rectangle2, @NonNull ConstraintLayout rectangle3,
+      @NonNull ConstraintLayout rectangle4, @NonNull TextView toolbarAppNameTv,
+      @NonNull Toolbar view) {
     this.rootView = rootView;
+    this.backButton = backButton;
     this.box1 = box1;
     this.box2 = box2;
     this.box3 = box3;
     this.box4 = box4;
-    this.cardViewProfile = cardViewProfile;
     this.imageView61 = imageView61;
     this.imageView62 = imageView62;
     this.imageView63 = imageView63;
     this.imageView64 = imageView64;
+    this.letterWordsProfile = letterWordsProfile;
     this.main = main;
     this.rectangle1 = rectangle1;
     this.rectangle2 = rectangle2;
@@ -125,6 +131,12 @@ public final class ActivityLetterWordsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.backButton;
+      ImageButton backButton = ViewBindings.findChildViewById(rootView, id);
+      if (backButton == null) {
+        break missingId;
+      }
+
       id = R.id.box1;
       ConstraintLayout box1 = ViewBindings.findChildViewById(rootView, id);
       if (box1 == null) {
@@ -149,12 +161,6 @@ public final class ActivityLetterWordsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.cardViewProfile;
-      CardView cardViewProfile = ViewBindings.findChildViewById(rootView, id);
-      if (cardViewProfile == null) {
-        break missingId;
-      }
-
       id = R.id.imageView6_1;
       ImageView imageView61 = ViewBindings.findChildViewById(rootView, id);
       if (imageView61 == null) {
@@ -176,6 +182,12 @@ public final class ActivityLetterWordsBinding implements ViewBinding {
       id = R.id.imageView6_4;
       ImageView imageView64 = ViewBindings.findChildViewById(rootView, id);
       if (imageView64 == null) {
+        break missingId;
+      }
+
+      id = R.id.letterWordsProfile;
+      CardView letterWordsProfile = ViewBindings.findChildViewById(rootView, id);
+      if (letterWordsProfile == null) {
         break missingId;
       }
 
@@ -217,9 +229,9 @@ public final class ActivityLetterWordsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLetterWordsBinding((ConstraintLayout) rootView, box1, box2, box3, box4,
-          cardViewProfile, imageView61, imageView62, imageView63, imageView64, main, rectangle1,
-          rectangle2, rectangle3, rectangle4, toolbarAppNameTv, view);
+      return new ActivityLetterWordsBinding((ConstraintLayout) rootView, backButton, box1, box2,
+          box3, box4, imageView61, imageView62, imageView63, imageView64, letterWordsProfile, main,
+          rectangle1, rectangle2, rectangle3, rectangle4, toolbarAppNameTv, view);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

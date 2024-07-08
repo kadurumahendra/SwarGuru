@@ -23,16 +23,16 @@ class LevelActivity : AppCompatActivity() {
 
     private fun setUpListeners() {
 
-        binding.box1.setOnClickListener {
-            val intent = Intent(this, AnimationActivity::class.java)
+        binding.beginnerbox.setOnClickListener {
+            val intent = Intent(this, LetterWordsActivity::class.java)
             startActivity(intent)
         }
-        binding.box2.setOnClickListener {
-            val intent = Intent(this, AnimationActivity::class.java)
+        binding.intermediatebox.setOnClickListener {
+            val intent = Intent(this, LetterWordsActivity::class.java)
             startActivity(intent)
         }
-        binding.box3.setOnClickListener {
-            val intent = Intent(this, AnimationActivity::class.java)
+        binding.advancedbox.setOnClickListener {
+            val intent = Intent(this, LetterWordsActivity::class.java)
             startActivity(intent)
         }
     }

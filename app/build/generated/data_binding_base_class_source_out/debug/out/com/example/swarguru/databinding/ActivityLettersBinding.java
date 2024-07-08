@@ -4,13 +4,14 @@ package com.example.swarguru.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
 import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.swarguru.R;
@@ -23,37 +24,16 @@ public final class ActivityLettersBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ConstraintLayout box1;
+  public final ImageButton backButton;
 
   @NonNull
-  public final ConstraintLayout box2;
+  public final CardView letterProfile;
 
   @NonNull
-  public final ConstraintLayout box3;
-
-  @NonNull
-  public final ConstraintLayout box4;
-
-  @NonNull
-  public final CardView cardViewProfile;
-
-  @NonNull
-  public final ImageView imageView61;
-
-  @NonNull
-  public final ImageView imageView62;
-
-  @NonNull
-  public final ImageView imageView63;
-
-  @NonNull
-  public final ImageView imageView64;
+  public final RecyclerView letterRV;
 
   @NonNull
   public final ConstraintLayout main;
-
-  @NonNull
-  public final ConstraintLayout rectangle1;
 
   @NonNull
   public final TextView toolbarAppNameTv;
@@ -64,26 +44,16 @@ public final class ActivityLettersBinding implements ViewBinding {
   @NonNull
   public final Toolbar view;
 
-  private ActivityLettersBinding(@NonNull ConstraintLayout rootView, @NonNull ConstraintLayout box1,
-      @NonNull ConstraintLayout box2, @NonNull ConstraintLayout box3,
-      @NonNull ConstraintLayout box4, @NonNull CardView cardViewProfile,
-      @NonNull ImageView imageView61, @NonNull ImageView imageView62,
-      @NonNull ImageView imageView63, @NonNull ImageView imageView64,
-      @NonNull ConstraintLayout main, @NonNull ConstraintLayout rectangle1,
+  private ActivityLettersBinding(@NonNull ConstraintLayout rootView,
+      @NonNull ImageButton backButton, @NonNull CardView letterProfile,
+      @NonNull RecyclerView letterRV, @NonNull ConstraintLayout main,
       @NonNull TextView toolbarAppNameTv, @NonNull TextView toolbarProfileNameTv,
       @NonNull Toolbar view) {
     this.rootView = rootView;
-    this.box1 = box1;
-    this.box2 = box2;
-    this.box3 = box3;
-    this.box4 = box4;
-    this.cardViewProfile = cardViewProfile;
-    this.imageView61 = imageView61;
-    this.imageView62 = imageView62;
-    this.imageView63 = imageView63;
-    this.imageView64 = imageView64;
+    this.backButton = backButton;
+    this.letterProfile = letterProfile;
+    this.letterRV = letterRV;
     this.main = main;
-    this.rectangle1 = rectangle1;
     this.toolbarAppNameTv = toolbarAppNameTv;
     this.toolbarProfileNameTv = toolbarProfileNameTv;
     this.view = view;
@@ -116,67 +86,25 @@ public final class ActivityLettersBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.box1;
-      ConstraintLayout box1 = ViewBindings.findChildViewById(rootView, id);
-      if (box1 == null) {
+      id = R.id.backButton;
+      ImageButton backButton = ViewBindings.findChildViewById(rootView, id);
+      if (backButton == null) {
         break missingId;
       }
 
-      id = R.id.box2;
-      ConstraintLayout box2 = ViewBindings.findChildViewById(rootView, id);
-      if (box2 == null) {
+      id = R.id.letterProfile;
+      CardView letterProfile = ViewBindings.findChildViewById(rootView, id);
+      if (letterProfile == null) {
         break missingId;
       }
 
-      id = R.id.box3;
-      ConstraintLayout box3 = ViewBindings.findChildViewById(rootView, id);
-      if (box3 == null) {
-        break missingId;
-      }
-
-      id = R.id.box4;
-      ConstraintLayout box4 = ViewBindings.findChildViewById(rootView, id);
-      if (box4 == null) {
-        break missingId;
-      }
-
-      id = R.id.cardViewProfile;
-      CardView cardViewProfile = ViewBindings.findChildViewById(rootView, id);
-      if (cardViewProfile == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView6_1;
-      ImageView imageView61 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView61 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView6_2;
-      ImageView imageView62 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView62 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView6_3;
-      ImageView imageView63 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView63 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView6_4;
-      ImageView imageView64 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView64 == null) {
+      id = R.id.letterRV;
+      RecyclerView letterRV = ViewBindings.findChildViewById(rootView, id);
+      if (letterRV == null) {
         break missingId;
       }
 
       ConstraintLayout main = (ConstraintLayout) rootView;
-
-      id = R.id.rectangle1;
-      ConstraintLayout rectangle1 = ViewBindings.findChildViewById(rootView, id);
-      if (rectangle1 == null) {
-        break missingId;
-      }
 
       id = R.id.toolbarAppNameTv;
       TextView toolbarAppNameTv = ViewBindings.findChildViewById(rootView, id);
@@ -196,9 +124,8 @@ public final class ActivityLettersBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLettersBinding((ConstraintLayout) rootView, box1, box2, box3, box4,
-          cardViewProfile, imageView61, imageView62, imageView63, imageView64, main, rectangle1,
-          toolbarAppNameTv, toolbarProfileNameTv, view);
+      return new ActivityLettersBinding((ConstraintLayout) rootView, backButton, letterProfile,
+          letterRV, main, toolbarAppNameTv, toolbarProfileNameTv, view);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

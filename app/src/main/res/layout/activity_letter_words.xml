@@ -22,6 +22,7 @@
             android:layout_height="match_parent">
 
             <ImageButton
+                android:id="@+id/backButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/back_button"
@@ -41,11 +42,11 @@
                 android:textColor="@color/yellow"
                 android:textSize="25sp"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toStartOf="@+id/cardViewProfile"
+                app:layout_constraintEnd_toStartOf="@+id/letterWordsProfile"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
             <androidx.cardview.widget.CardView
-                android:id="@+id/cardViewProfile"
+                android:id="@+id/letterWordsProfile"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 app:cardBackgroundColor="@color/dark_violet"

@@ -22,6 +22,7 @@
             android:layout_height="match_parent">
 
             <ImageButton
+                android:id="@id/backButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -42,12 +43,12 @@
                 android:textColor="@color/yellow"
                 android:textSize="25sp"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toStartOf="@+id/cardViewProfile"
+                app:layout_constraintEnd_toStartOf="@+id/letterProfile"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cardViewProfile"
+                android:id="@+id/letterProfile"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 app:cardBackgroundColor="@color/dark_violet"
@@ -82,185 +83,14 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.appcompat.widget.Toolbar>
 
-    <androidx.core.widget.NestedScrollView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/letterRV"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/box1"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/curvede_letter_bg_20dp"
-                android:clickable="true"
-                android:focusable="true"
-                android:onClick="onFrameContainerClick"
-                android:paddingHorizontal="25dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
-
-                <ImageView
-                    android:id="@+id/imageView6_1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="-1dp"
-                    android:layout_marginTop="-10dp"
-                    android:layout_marginEnd="-1dp"
-                    android:src="@drawable/hindi_aa"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:id="@+id/rectangle1"
-                    android:layout_width="match_parent"
-                    android:layout_height="35dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginEnd="10dp"
-                    android:background="@drawable/curved_blue_bg_10dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView6_1" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter_bold"
-                    android:text="START"
-                    android:textAlignment="center"
-                    android:textColor="@color/white"
-                    android:textSize="18dp"
-                    app:layout_constraintBottom_toBottomOf="@+id/rectangle1"
-                    app:layout_constraintEnd_toEndOf="@+id/rectangle1"
-                    app:layout_constraintStart_toStartOf="@+id/rectangle1"
-                    app:layout_constraintTop_toTopOf="@+id/rectangle1" />
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/box2"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="25dp"
-                android:background="@drawable/curvede_letter_bg_20dp"
-                android:clickable="true"
-                android:focusable="true"
-                android:onClick="onFrameContainerClick"
-                android:paddingHorizontal="25dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
-
-                <ImageView
-                    android:id="@+id/imageView6_2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="-1dp"
-                    android:layout_marginTop="-10dp"
-                    android:layout_marginEnd="-1dp"
-                    android:src="@drawable/hindi_sa"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/lock_icon"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView6_2" />
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/box3"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/curvede_letter_bg_20dp"
-                android:clickable="true"
-                android:focusable="true"
-                android:onClick="onFrameContainerClick"
-                android:paddingHorizontal="25dp"
-                app:layout_constraintStart_toStartOf="@+id/box1"
-                app:layout_constraintTop_toBottomOf="@+id/box1">
-
-                <ImageView
-                    android:id="@+id/imageView6_3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="-1dp"
-                    android:layout_marginTop="-10dp"
-                    android:layout_marginEnd="-1dp"
-                    android:src="@drawable/hindi_sa"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/lock_icon"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView6_3" />
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/box4"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_marginEnd="25dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/curvede_letter_bg_20dp"
-                android:clickable="true"
-                android:focusable="true"
-                android:onClick="onFrameContainerClick"
-                android:paddingHorizontal="25dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/box2">
-
-                <ImageView
-                    android:id="@+id/imageView6_4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="-1dp"
-                    android:layout_marginTop="-10dp"
-                    android:layout_marginEnd="-1dp"
-                    android:src="@drawable/hindi_sa"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/lock_icon"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView6_4" />
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-    </androidx.core.widget.NestedScrollView>
+        app:layout_constraintTop_toBottomOf="@+id/view" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

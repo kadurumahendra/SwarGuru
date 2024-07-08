@@ -6,7 +6,7 @@
     android:background="@drawable/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragments.AdminFragment.AdminhomeFragment">\
+    tools:context=".Fragments.AdminFragment.AdminhomeFragment">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/view"
@@ -50,7 +50,7 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <ImageView
-                    android:layout_width="40dp"
+                    android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="5dp"
                     android:layout_marginVertical="5dp"
@@ -75,7 +75,7 @@
     </androidx.appcompat.widget.Toolbar>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/quizbox"
+        android:id="@+id/quizBoxCL"
         android:layout_width="170dp"
         android:layout_height="170dp"
         android:layout_marginStart="20dp"
@@ -128,7 +128,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/vocalbularybox"
+        android:id="@+id/vocalbularyBoxCL"
         android:layout_width="170dp"
         android:layout_height="170dp"
         android:layout_marginTop="25dp"
@@ -181,7 +181,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/letterbox"
+        android:id="@+id/letterBoxCL"
         android:layout_width="170dp"
         android:layout_height="170dp"
         android:layout_marginTop="25dp"
@@ -192,7 +192,7 @@
         android:onClick="onFrameContainerClick"
         android:paddingHorizontal="25dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/quizbox">
+        app:layout_constraintTop_toBottomOf="@+id/quizBoxCL">
 
         <ImageView
             android:id="@+id/imageView7_3"
@@ -234,7 +234,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/imagebox"
+        android:id="@+id/imageBoxCL"
         android:layout_width="170dp"
         android:layout_height="170dp"
         android:layout_marginTop="25dp"
@@ -245,7 +245,7 @@
         android:onClick="onFrameContainerClick"
         android:paddingHorizontal="25dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/vocalbularybox">
+        app:layout_constraintTop_toBottomOf="@+id/vocalbularyBoxCL">
 
         <ImageView
             android:id="@+id/imageView7_4"

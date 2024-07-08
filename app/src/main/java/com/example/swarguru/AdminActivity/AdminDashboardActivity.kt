@@ -30,9 +30,7 @@ class AdminDashboardActivity : AppCompatActivity() {
             super.onCreate(savedInstanceState)
             binding = ActivityAdminDashboardBinding.inflate(layoutInflater)
             setContentView(binding.root)
-
             replaceFragment(homeFragment)
-
             setUpListeners()
         }
 
